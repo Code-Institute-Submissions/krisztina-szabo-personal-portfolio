@@ -49,11 +49,12 @@ body {
     border-spacing: 2px;
     border-color: solid white;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 180px;
+    width: 180px;
     margin: 30px auto;
     align-content: center;
     background-repeat: no-repeat;
+    
     
 }
 .intr-button{
