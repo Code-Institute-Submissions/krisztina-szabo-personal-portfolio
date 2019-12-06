@@ -4,3 +4,21 @@
     color: rgb(106, 190, 106);
     
 }
+
+
+/*Header*/
+
+/*Body*/
+
+.bg-image {
+  background-image: url("assets/images/background.jpg"); 
+  background-size: cover; 
+  height: 1000px;
+  background-repeat: no-repeat; 
+  background-position: center;
+  width: 100%;
+}
+  
+ 
+
+
