@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+
+
 /*Colors*/
 
-.introduction{
-    color: rgb(106, 190, 106);
-    
+body {
+    color:wheat;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 69px;
 }
 
 
@@ -13,12 +18,26 @@
 .bg-image {
   background-image: url("assets/images/background.jpg"); 
   background-size: cover; 
-  height: 1000px;
+  height: 651px;
   background-repeat: no-repeat; 
   background-position: center;
   width: 100%;
+  margin-top: 0px;
 }
-  
+
+.head-text{
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+}
+
+/*Menu*/
+.menucontainer {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1234;
+}
  
 
 
