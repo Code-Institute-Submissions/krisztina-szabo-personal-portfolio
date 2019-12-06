@@ -45,13 +45,19 @@ body {
 }
 
 .portrait{
-    display: block;
-    border: 3px solid white;
+    border: 3px;
+    border-spacing: 2px;
+    border-color: solid white;
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    background-repeat: no-repeat;
     margin: 30px auto;
+    align-content: center;
+    background-repeat: no-repeat;
+    
+}
+.intr-button{
+    padding-top: 20px;
 }
 
 
