@@ -7,8 +7,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 69px;
-    background: rgba(100, 34, 34, 0.5);
-    }
+        }
 
 
 /*Header*/
@@ -65,7 +64,8 @@ body {
 .intr-button{
     padding-top: 20px;
     position: relative;
-    margin-left: 550px;
+    margin-left: 0px;
+    text-align: center;
 }
 
 
@@ -75,17 +75,45 @@ body {
     padding-top: 20px;
 }
 
+.social{
+  font-size: 30px;
+  width: 30px;
+  padding: 20px;
+  border-radius: 50%;
+  display: inline;
+  text-align: center;
+   
+   
+  }
+
+.social-media {
+   text-align: center;
+   list-style: none;
+   margin-left: 50%;
+  
+}
+
+.social-media li{
+    padding: 5px;
+    
+   
+}
+
+
+
+
+
+
 /*Menu*/
 
 nav {
      width: 100vw;
-     background: #1268;
+     background:black;
      list-style-type: none;
      margin: 0px;
      padding: 0px;
      height: 100%;
-     position: relative;
-     
+     position: relative; 
      
      
      
@@ -102,3 +130,15 @@ ul li a{
     text-decoration: none;
 }
 
+/*Footer*/
+
+.container-footer {
+    background: #4689;
+    position: relative;
+    float: center;
+}
+
+.container-footer a {
+    float: center;
+    
+}
