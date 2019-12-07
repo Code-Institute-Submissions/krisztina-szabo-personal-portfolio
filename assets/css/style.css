@@ -50,9 +50,9 @@ body {
  
 
 .portrait{
-    border: 3px;
-    border-spacing: 2px;
-    border-color: solid white;
+    border: 6px solid;
+    border-spacing: 4px;
+    border-color: white;
     border-radius: 50%;
     height: 180px;
     width: 180px;
