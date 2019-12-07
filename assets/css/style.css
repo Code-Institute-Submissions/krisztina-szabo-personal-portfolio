@@ -5,10 +5,10 @@
 /*Colors*/
 
 body {
-    color:wheat;
     font-family: 'PT Sans', sans-serif;
     font-size: 69px;
-}
+    background: rgba(100, 34, 34, 0.5);
+    }
 
 
 /*Header*/
@@ -25,24 +25,37 @@ body {
 
 
 .introduction{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif ;
     color:#fafafa;
     position: relative;
     text-align: center;
-    padding-top: 30px;
-     
+    padding-top: 40px;
+    font-size: 20px;
+   font-weight: 400px;
+         
     
 }
-.bg-image {
-  background-image: url("assets/images/background.jpg"); 
-  background-size: cover; 
-  height: 651px;
-  background-repeat: no-repeat; 
-  background-position: center;
-  width: 100%;
-  margin-top: 0px;
-   
+
+
+.background {
+    background-image: url("../images/background.jpg");
+    background-size: cover; 
+    height: 651px;
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: 100%;
+    margin-top: 0px;
+    }
+.transparent-layer {
+    height: 100%;
+    color: rgba(100, 34, 34, 0.5);
 }
+.text {
+    color: white;
+}
+
+
+ 
 
 .portrait{
     border: 3px;
@@ -59,6 +72,8 @@ body {
 }
 .intr-button{
     padding-top: 20px;
+    position: relative;
+    margin-left: 550px;
 }
 
 
@@ -69,12 +84,24 @@ body {
 }
 
 /*Menu*/
-.menucontainer {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    background-color: #1234;
+
+nav {
+     width: 100vw;
+     background: #1268;
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+     height: 100%;
+     
+     
+     
+     }
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
- 
 
-
+ul li a{
+    color: #fafafa;
+}
