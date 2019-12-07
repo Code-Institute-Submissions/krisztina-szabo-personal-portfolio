@@ -38,7 +38,7 @@ body {
 
 
 .background {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/bg-img.jpg");
     background-size: cover; 
     height: 651px;
     background-repeat: no-repeat; 
@@ -46,14 +46,6 @@ body {
     width: 100%;
     margin-top: 0px;
     }
-.transparent-layer {
-    height: 100%;
-    color: rgba(100, 34, 34, 0.5);
-}
-.text {
-    color: white;
-}
-
 
  
 
@@ -92,6 +84,9 @@ nav {
      margin: 0px;
      padding: 0px;
      height: 100%;
+     position: relative;
+     
+     
      
      
      
@@ -104,4 +99,6 @@ ul{
 
 ul li a{
     color: #fafafa;
+    text-decoration: none;
 }
+
