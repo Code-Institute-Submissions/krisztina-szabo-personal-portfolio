@@ -7,12 +7,53 @@
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 69px;
-    width: 100%;
-    height: 100%;
+    margin:0;
+    padding:0;
+    
+    
         }
 
+/*Header-menu*/
 
-/*Header*/
+header{
+    font-size: 24px;
+    font-family: "PT Sans", sans-serif;
+    text-decoration-line: none;
+   
+}
+nav {
+     width: 100vw;
+     background:black;
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+     height: 100%;
+     position: relative; 
+    
+     
+     
+     
+     
+     }
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  
+}
+
+ul li a{
+    color: #fafafa;
+    text-decoration: none;
+    
+}
+li a:hover {
+  background-color: rgb(29, 107, 59);
+  color: white;
+  text-decoration:none;
+}
+
 
 /*Body*/
 
@@ -101,60 +142,3 @@ body {
 
 
 
-
-/*Menu*/
-
-header{
-    font-size: 24px;
-    font-family: "PT Sans", sans-serif;
-   
-}
-nav {
-     width: 100vw;
-     background:black;
-     list-style-type: none;
-     margin: 0px;
-     padding: 0px;
-     height: 100%;
-     position: relative; 
-    
-     
-     
-     
-     
-     }
-ul{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style-type: none;
-}
-
-ul li a{
-    color: #fafafa;
-    text-decoration: none;
-}
-li a:hover {
-  background-color: rgb(19, 63, 36);
-  color: white;
-}
-
-
-
-/*Footer*/
-
-.container-footer {
-    background: black;
-    position: relative;
-    float: center;
-    color: #fafafa;
-    font-size: 12px;
-    width: 100%;
-    height: 100%;
-}
-
-.container-footer a {
-    float: right;
-    text-align: inherit;
-    
-}
