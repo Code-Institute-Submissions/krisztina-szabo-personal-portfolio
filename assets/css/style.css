@@ -75,22 +75,18 @@ body {
     padding-top: 20px;
 }
 
-.social{
+.social {
   font-size: 30px;
-  width: 30px;
   padding: 20px;
-  border-radius: 50%;
-  display: inline;
   text-align: center;
-   
-   
-  }
-
+}
 .social-media {
-   text-align: center;
    list-style: none;
-   margin-left: 50%;
-  
+   justify-content: center;
+}
+
+.social-media ul{
+    display: flex;
 }
 
 .social-media li{
