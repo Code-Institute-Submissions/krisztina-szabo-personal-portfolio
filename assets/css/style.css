@@ -29,6 +29,7 @@ nav {
      padding: 0px;
      height: 100%;
      position: relative; 
+     text-align: right;
     
      
      
@@ -52,6 +53,12 @@ li a:hover {
   background-color: rgb(29, 107, 59);
   color: white;
   text-decoration:none;
+}
+
+@media (min-width: 768px) {
+    .dropdown-menu {
+        width: 100% !important; 
+    }
 }
 
 
