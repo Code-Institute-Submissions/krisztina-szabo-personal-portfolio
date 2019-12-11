@@ -19,7 +19,6 @@ header{
     font-size: 24px;
     font-family: "PT Sans", sans-serif;
     text-decoration-line: none;
-    justify-content: right;
    
 }
 nav {
@@ -30,8 +29,6 @@ nav {
      padding: 0px;
      height: 100%;
      position: relative; 
-     
-     
     
      
      
@@ -41,9 +38,8 @@ nav {
 ul{
   margin: 0;
   padding: 0;
-  display: inline;
+  display: flex;
   list-style-type: none;
-  
   
 }
 
@@ -51,24 +47,12 @@ ul li a{
     color: #fafafa;
     text-decoration: none;
     
-    
-    
 }
 li a:hover {
   background-color: rgb(29, 107, 59);
   color: white;
   text-decoration:none;
 }
-
-@media (min-width: 768px) {
-    .dropdown-menu {
-        width: 100% !important; 
-    }
-
-.mainmenu{
-    text-align: right;
-}
-
 
 
 /*Body*/
@@ -83,7 +67,7 @@ li a:hover {
 
 
 .introduction{
-    font-family: 'PT Sans', sans-serif ;
+   font-family: 'PT Sans', sans-serif;
     color:#fafafa;
     position: relative;
     text-align: center;
@@ -154,7 +138,42 @@ li a:hover {
    
 }
 
+/* Timeline-source:codepen.io-modified*/
 
-
-
-
+.container{
+background-color: blue;
+}
+.year-section{
+  margin: 30px auto;
+  color:#3b853f ;
+  font-size: 1.0em;
+  font-family: 'PT Sans', sans-serif;
+  
+  a{
+    font-weight: 400;
+    color: #fafafa;
+  }
+  .year{
+    color: @color-dark;
+    font-weight: 400;
+  }
+	.big{
+    font-size: larger;
+    color: @white;
+    font-weight: 100;
+    margin-bottom: .5em;
+	}
+	.aside{
+    font-size: smaller;
+    border-left: 2px solid @color-dark;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-weight: 300;
+	}
+  ul{
+    list-style: circle;
+  }
+}
+body{
+  background: @color;
+}
