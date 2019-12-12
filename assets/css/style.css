@@ -141,39 +141,63 @@ li a:hover {
 /* Timeline-source:codepen.io-modified*/
 
 .container{
-background-color: blue;
+background-color:#fafafa;
+padding-top:35px;
 }
 .year-section{
   margin: 30px auto;
   color:#3b853f ;
   font-size: 1.0em;
   font-family: 'PT Sans', sans-serif;
+  }
   
-  a{
+  a {
     font-weight: 400;
-    color: #fafafa;
+    color: #3b853f;
+    font-style: normal;
   }
   .year{
-    color: @color-dark;
+    color:#3b853f;
     font-weight: 400;
+    font-style:italic
   }
 	.big{
     font-size: larger;
-    color: @white;
+    color:#3b853f;
     font-weight: 100;
     margin-bottom: .5em;
 	}
 	.aside{
     font-size: smaller;
-    border-left: 2px solid @color-dark;
-    padding-left: 10px;
+    border-left: 2px solid black;
+    padding-left: 20px;
     padding-bottom: 20px;
     font-weight: 300;
+    font-style:normal;
+    
+    
 	}
-  ul{
+  .subjects{
     list-style: circle;
+    text-align: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display:table;
+
   }
-}
-body{
-  background: @color;
-}
+
+  .title {
+      font-family: "PT Sans", sans-serif;
+      font-size: 35px;
+      color: #3b853f;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-style:oblique;
+      transition:ease-in .2s;
+      text-transform:capitalize;
+  }
+
