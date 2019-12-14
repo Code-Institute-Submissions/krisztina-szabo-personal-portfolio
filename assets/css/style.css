@@ -10,8 +10,7 @@ body {
     margin:0;
     padding:0;
     
-    
-        }
+     }
 
 /*Header-menu*/
 
@@ -147,7 +146,7 @@ padding-top:35px;
 .year-section{
   margin: 30px auto;
   color:#3b853f ;
-  font-size: 1.0em;
+  font-size: 1.1em;
   font-family: 'PT Sans', sans-serif;
   }
   
@@ -189,15 +188,26 @@ padding-top:35px;
 
   }
 
-  .title {
-      font-family: "PT Sans", sans-serif;
+  .title{
+      font-family: 'PT Sans', sans-serif;
       font-size: 35px;
       color: #3b853f;
       text-align: center;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 30px;
+      padding-bottom: 30px;
       font-style:oblique;
-      transition:ease-in .2s;
+      transition:ease ease-in .2s;
       text-transform:capitalize;
-  }
+      }
+
+.fas, .fab {
+text-align: center;
+background: oblique;
+font-size: 30px;
+
+}
+. subjects li{
+font-size: smaller;
+}
+  
 
