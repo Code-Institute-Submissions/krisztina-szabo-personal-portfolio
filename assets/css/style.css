@@ -196,8 +196,8 @@ padding-top:35px;
       padding-top: 30px;
       padding-bottom: 30px;
       font-style:oblique;
-      transition:ease ease-in .2s;
       text-transform:capitalize;
+      text-shadow: 1px 1px   #3b853f;
       }
 
 .fas, .fab {
@@ -206,8 +206,27 @@ background: oblique;
 font-size: 30px;
 
 }
-. subjects li{
+.subjects li{
 font-size: smaller;
 }
-  
+
+/* My portfolio*/
+
+
+
+/*Pictures*/
+
+/*Buttons*/
+
+.portfolio-btn{
+    text-align: center;
+    transition-duration: .2s;
+    cursor:pointer;
+
+}
+.portfolio-btn .btn-secondary:hover{
+     background-color:#3b853f;
+     color:white;
+     
+}
 
