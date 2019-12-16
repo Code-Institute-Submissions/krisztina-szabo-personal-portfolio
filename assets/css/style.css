@@ -213,6 +213,16 @@ font-size: smaller;
 /* My portfolio*/
 /*Pictures, cards*/
 
+.portfolio-title{
+    text-align: center;
+    font-size: 35px;
+    color:#3b853f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform:capitalize;
+    text-shadow: 1px 1px   #3b853f;
+}
+
 .card{
 -webkit-column-break-inside:  avoid;
 display: inline-block;
