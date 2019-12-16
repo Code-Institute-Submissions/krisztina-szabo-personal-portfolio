@@ -216,15 +216,36 @@ font-size: smaller;
 .card{
 -webkit-column-break-inside:  avoid;
 display: inline-block;
-margin-right: 20px;
+
 
 }
 
 .card-deck{
 text-align: left;
 width: 100%;
+margin:20px 20px 20px 20px;
 }
 
+.card-img-top{
+    margin-left: 20px;
+    width: 40%;
+    height: 70%;
+    border: 2px solid black;
+    border-radius:15px;
+    
+}
+
+.card-body{
+    text-align: center;
+    color:  #3b853f;
+}
+
+
+
+.btn.btn-dark:hover{
+    background:  #3b853f;
+
+}
 
 
 
