@@ -32,24 +32,24 @@
 </header>
 
 <body>
-	<div class="form">
+	<div class="form-group">
 		<form class="get-in-touch">
 			<label for="fname"> First Name </label>
-			<input type="text" name="firstname" id="fname" required placeholder="Your first name...">
+			<input type="text" class="form-control-md" name="firstname" id="fname" required placeholder="Your first name...">
 			<label for="lname"> Last Name </label>
-			<input type="text" name="lastname" id="lname" required placeholder="Your last name...">
+			<input type="text" class="form-control-md" name="lastname" id="lname" required placeholder="Your last name...">
 			<label for="email" class="email"> Email address </label>
-			<input type="email" name="email" id="email" required placeholder="Your email address">
+			<input type="email"class="form-control-email" name="email" id="email" required placeholder="Your email address">
 			<label for="time" class="time">How urgent it is?</label>
-			<select id="time" name="time">
+	<select type="form-control-select"id="time" name="time">
       <option value="blank"> Choose your answer</option>
       <option value="time"> No rush, talk about it when you are available.</option>
       <option value="asap">As soon as it's possible. </option>
       <option value="no-time">It's urgent, do you have any idea, or ready-made project?</option>
     </select>
 			<label for="subject"> Please tell me about your idea </label>
-			<textarea type="text" name="subject" id="subject" placeholder="Let's start working together!"> </textarea>
-			<input type="submit" value="Submit">
+			<textarea type="form-control-text" name="subject" id="subject" placeholder="Let's start working together!"> </textarea>
+			<input class="btn btn-success" type="button" value="Submit">
 
     </form>
 	</div>
