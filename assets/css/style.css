@@ -293,10 +293,12 @@ margin:20px 20px 20px 20px;
 /*Get in touch form*/
 .container{
  position: relative;
+ width: 100px;
+ 
 }
 
 .form{
- position: absolute;
+ position: relative;
  top: 50%;
  left: 50%;
  transform: translate(-50%,-50%);
@@ -310,13 +312,14 @@ margin:20px 20px 20px 20px;
 #form-row{
   height: 500px;
   background-size: 150px;
+  width: 100%;
   
   
 }
 
 /*Method seen on w3schools.com. Modified*/
 
-input[type=text], select, textarea {
+input[type=text], select, textarea{
   width: 100%; 
   padding: 10px;
   border: 2px solid #3b853f;
@@ -324,6 +327,15 @@ input[type=text], select, textarea {
   box-sizing: border-box; 
   margin-top: 5px; 
   margin-bottom: 15px; 
+  resize: vertical;
+}
+
+input[type=email], email{
+  width: 100%; 
+  border: 2px solid #3b853f;
+  border-radius: 2px; 
+  box-sizing: border-box; 
+  margin-top: 5px; 
   resize: vertical;
 }
 
