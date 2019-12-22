@@ -144,7 +144,7 @@ li a:hover {
    
 }
 /* Introduction*/
-.me{
+.me {
    box-sizing: border-box;
    display:inline-block;
    font-size: 18px;
@@ -247,7 +247,7 @@ font-size: smaller;
     margin-top: 20px;
     margin-bottom: 30px;
     text-transform:capitalize;
-    text-shadow: 1px 1px   #3b853f;
+    text-shadow: 1px 1px  #3b853f;
 }
 
 .card{
