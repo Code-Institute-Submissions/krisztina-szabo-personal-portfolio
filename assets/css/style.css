@@ -288,5 +288,42 @@ margin:20px 20px 20px 20px;
      color:white;
      
 }
-/*Get in touch form*/
 
+
+/*Get in touch form*/
+.container{
+ position: relative;
+}
+
+.form{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+
+.form-group{
+    float: center;
+    box-sizing:content-box;
+}
+
+#form-row{
+  height: 500px;
+}
+
+/*Method seen on w3schools.com. Modified*/
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 10px;
+  border: 2px solid #3b853f;
+  border-radius: 2px; 
+  box-sizing: border-box; 
+  margin-top: 5px; 
+  margin-bottom: 15px; 
+  resize: vertical;
+}
+
+.btn-success{
+    float: right;
+}
