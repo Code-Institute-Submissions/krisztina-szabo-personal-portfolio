@@ -143,6 +143,26 @@ li a:hover {
     
    
 }
+/* Introduction*/
+.me{
+   box-sizing: border-box;
+   display:inline-block;
+   font-size: 18px;
+   border: 2px solid #3b853f;
+   background: whitesmoke;
+   height: 430px;
+   width: 70%;
+   color: #3b853f;
+   padding: 8px 6px 8px 6px;
+   
+}
+
+.selfintro{
+    text-align: center;
+    padding-top: 20px;
+
+
+}
 
 /* Timeline-source:codepen.io-modified*/
 
@@ -295,7 +315,7 @@ margin:20px 20px 20px 20px;
 
 
 .contact-title{
-    font-size: 28px;
+    font-size: 38px;
     text-align: center;
     color: #3b853f;
     padding-bottom: 5px;
