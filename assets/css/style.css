@@ -6,7 +6,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
-    font-size: 69px;
+    font-size: 18px;
     margin:0;
     padding:0;
     
@@ -263,7 +263,7 @@ margin:20px 20px 20px 20px;
     background:  #3b853f;
 
 }
-.conatiner-fluid{
+.container-fluid{
     margin: 0px;
     padding: 0;
 }
@@ -293,7 +293,7 @@ margin:20px 20px 20px 20px;
 /*Get in touch form*/
 .container{
  position: relative;
- width: 100px;
+ 
  
 }
 
@@ -307,19 +307,14 @@ margin:20px 20px 20px 20px;
 .form-group{
     float: center;
     box-sizing:content-box;
+    
 }
 
-#form-row{
-  height: 500px;
-  background-size: 150px;
-  width: 100%;
-  
-  
-}
+
 
 /*Method seen on w3schools.com. Modified*/
 
-input[type=text], select, textarea{
+input[type=text], select, textarea, input[type=email], email{
   width: 100%; 
   padding: 10px;
   border: 2px solid #3b853f;
@@ -328,16 +323,9 @@ input[type=text], select, textarea{
   margin-top: 5px; 
   margin-bottom: 15px; 
   resize: vertical;
+  
 }
 
-input[type=email], email{
-  width: 100%; 
-  border: 2px solid #3b853f;
-  border-radius: 2px; 
-  box-sizing: border-box; 
-  margin-top: 5px; 
-  resize: vertical;
-}
 
 .submit{
     float: right;
