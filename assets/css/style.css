@@ -291,10 +291,28 @@ margin:20px 20px 20px 20px;
 
 
 /*Get in touch form*/
-.container{
+
+
+
+.contact-title{
+    font-size: 28px;
+    text-align: center;
+    color: #3b853f;
+    padding-bottom: 5px;
+}
+
+#container-contact{
  position: relative;
+ width: 700px;
+ border: 2px solid #3b853f;
+ padding-top: 15px;
+ margin-top: 20px;
+ margin-bottom: 20px;
  
- 
+}
+
+#form-row{
+    width: 100%;
 }
 
 .form{
