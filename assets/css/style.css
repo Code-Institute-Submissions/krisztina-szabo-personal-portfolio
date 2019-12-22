@@ -327,6 +327,10 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-.btn-success{
+.submit{
     float: right;
+    background: #3b853f;
+    border: 2px solid darkgreen;
+    border-radius: 2px;
+    color: white;
 }
