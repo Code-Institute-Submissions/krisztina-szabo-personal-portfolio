@@ -1,545 +1,451 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
-
+* {
+	box-sizing: border-box;
+}
 
 
 /*Colors*/
 
-
-html, body{
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    
+html,
+body {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	box-sizing: border-box;
 }
+
+
 /*Header-menu*/
 
-header{
-    font-size: 24px;
-    font-family: "PT Sans", sans-serif;
-    text-decoration-line: none;
-    
-   
-}
-nav {
-     width: 100vw;
-     background:black;
-     list-style-type: none;
-     margin: 0px;
-     padding: 0px;
-     height: 100%;
-     position: relative; 
-    
-     
-     
-     
-     
-     }
-ul{
-  
-  padding: 0;
-  display: flex;
-  list-style-type: none;
-  margin-bottom: 0;
-  margin-top: 0px;
-  
+header {
+	font-size: 24px;
+	font-family: "PT Sans", sans-serif;
+	text-decoration-line: none;
 }
 
-ul li a{
-    color: #fafafa;
-    text-decoration: none;
-    
+nav {
+	width: 100vw;
+	background: black;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
 }
+
+ul {
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+	margin-bottom: 0;
+	margin-top: 0px;
+}
+
+ul li a {
+	color: #fafafa;
+	text-decoration: none;
+}
+
 li a:hover {
-  background-color: #3b853f;
-  color: white;
-  text-decoration:none;
+	background-color: #3b853f;
+	color: white;
+	text-decoration: none;
 }
-.container-fluid{
-    margin: 0;
-    padding: 0;
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
 }
 
 
 /*Body*/
 
-.homepage{
-    font-family: 'PT Sans', sans-serif;
-    color: #3b853f;
-    position: relative;
-    text-align: center;
+.homepage {
+	font-family: 'PT Sans', sans-serif;
+	color: #3b853f;
+	position: relative;
+	text-align: center;
 }
 
-
-
-.introduction{
-   font-family: 'PT Sans', sans-serif;
-    color:#fafafa;
-    position: relative;
-    text-align: center;
-    padding-top: 40px;
-    font-size: 20px;
-   font-weight: 400px;
-         
-    
+.introduction {
+	font-family: 'PT Sans', sans-serif;
+	color: #fafafa;
+	position: relative;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 20px;
+	font-weight: 400px;
 }
-
 
 .background {
-    background-image: url("../images/bg-img.jpg");
-    background-size: cover; 
-    height: 651px;
-    background-repeat: no-repeat; 
-    background-position: center;
-    width: 100%;
-    margin-top: 0px;
-    }
-
- 
-
-.portrait{
-    border: 6px solid;
-    border-spacing: 4px;
-    border-color: white;
-    border-radius: 50%;
-    height: 180px;
-    width: 180px;
-    margin: 30px auto;
-    align-content: center;
-    background-repeat: no-repeat;
-    
-    
-}
-.intr-button{
-    padding-top: 20px;
-    position: relative;
-    margin-left: 0px;
-    text-align: center;
+	background-image: url("../images/bg-img.jpg");
+	background-size: cover;
+	height: 651px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	margin-top: 0px;
 }
 
+.portrait {
+	border: 6px solid;
+	border-spacing: 4px;
+	border-color: white;
+	border-radius: 50%;
+	height: 180px;
+	width: 180px;
+	margin: 30px auto;
+	align-content: center;
+	background-repeat: no-repeat;
+	transition: ease-in .3s;
+}
 
-.head-text{
-    text-align: center;
-    position: relative;
-    padding-top: 20px;
+.portrait:hover {
+	border: 6px solid #3b853f;
+}
+
+.intr-button {
+	padding-top: 20px;
+	position: relative;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.btn-md {
+	size: 20px;
+}
+
+.head-text {
+	text-align: center;
+	position: relative;
+	padding-top: 20px;
 }
 
 .social {
-  font-size: 30px;
-  padding: 20px;
-  text-align: center;
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
 }
+
 .social-media {
-   list-style: none;
-   justify-content: center;
+	list-style: none;
+	justify-content: center;
 }
 
-.social-media ul{
-    display: flex;
+.social-media ul {
+	display: flex;
 }
 
-.social-media li{
-    padding: 5px;
-    
-   
+.social-media li {
+	padding: 5px;
 }
 
 
 /* About me*/
+
+
 /* Introduction*/
-.me{
-   box-sizing: border-box;
-   display:inline-block;
-   font-size: 18px;
-   border: 2px solid #3b853f;
-   background: whitesmoke;
-   height: 430px;
-   width: 70%;
-   color: #3b853f;
-   padding: 8px 6px 8px 6px;
-   
+
+.me {
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 18px;
+	border: 2px solid #3b853f;
+	background: whitesmoke;
+	height: 70%;
+	width: 70%;
+	color: #3b853f;
+	padding: 8px 6px 8px 6px;
 }
 
-.selfintro{
-    text-align: center;
-    padding-top: 20px;
-
-
+.selfintro {
+	text-align: center;
+	padding-top: 20px;
 }
+
 
 /* Timeline-source:codepen.io-modified*/
 
-.container{
-background-color:#fafafa;
-padding-top:35px;
+.container {
+	background-color: #fafafa;
+	padding-top: 35px;
 }
-.year-section{
-  margin: 30px auto;
-  color:#3b853f ;
-  font-size: 1.1em;
-  font-family: 'PT Sans', sans-serif;
-  }
-  
-  a {
-    font-weight: 400;
-    color: #3b853f;
-    font-style: normal;
-  }
-  .year{
-    color:#3b853f;
-    font-weight: 400;
-    font-style:italic
-  }
-	.big{
-    font-size: larger;
-    color:#3b853f;
-    font-weight: 100;
-    margin-bottom: .5rem;
-	}
-	.aside{
-    font-size: smaller;
-    border-left: 2px solid black;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    font-weight: 300;
-    font-style:normal;
-    
-    
-	}
-  .subjects{
-    list-style: circle;
-    text-align: left;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    display:table;
 
-  }
-
-  .title{
-      font-family: 'PT Sans', sans-serif;
-      font-size: 35px;
-      color: #3b853f;
-      text-align: center;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      font-style:oblique;
-      text-transform:capitalize;
-      text-shadow: 1px 1px   #3b853f;
-      }
-
-.fas, .fab {
-text-align: center;
-background: oblique;
-font-size: 30px;
-
+.year-section {
+	margin: 30px auto;
+	color: #3b853f;
+	font-size: 1.1em;
+	font-family: 'PT Sans', sans-serif;
 }
-.subjects li{
-font-size: smaller;
+
+a {
+	font-weight: 400;
+	color: #3b853f;
+	font-style: normal;
 }
+
+.year {
+	color: #3b853f;
+	font-weight: 400;
+	font-style: italic
+}
+
+.big {
+	font-size: larger;
+	color: #3b853f;
+	font-weight: 100;
+	margin-bottom: .5rem;
+}
+
+.aside {
+	font-size: smaller;
+	border-left: 2px solid black;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.subjects {
+	list-style: circle;
+	text-align: left;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	display: table;
+}
+
+.title {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 35px;
+	color: #3b853f;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-style: oblique;
+	text-transform: capitalize;
+	text-shadow: 1px 1px #3b853f;
+}
+
+.fas,
+.fab {
+	text-align: center;
+	background: oblique;
+	font-size: 30px;
+}
+
+.subjects li {
+	font-size: smaller;
+}
+
 
 /* My portfolio*/
+
+
 /*Pictures, cards*/
 
-.portfolio-title{
-    text-align: center;
-    font-size: 35px;
-    color:#3b853f;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-transform:capitalize;
-    text-shadow: 1px 1px   #3b853f;
+.portfolio-title {
+	text-align: center;
+	font-size: 35px;
+	color: #3b853f;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-transform: capitalize;
+	text-shadow: 1px 1px #3b853f;
 }
 
-.card{
--webkit-column-break-inside:  avoid;
-display: inline-block;
-
-
+.card {
+	-webkit-column-break-inside: avoid;
+	display: inline-block;
 }
 
-.card-deck{
-text-align: left;
-height: 100%;
-margin:20px 20px 20px 20px;
-box-sizing:initial;
-
+.card-deck {
+	text-align: left;
+	height: 100%;
+	margin: 20px 20px 20px 20px;
+	box-sizing: border-box;
 }
 
-.card-img-top{
-    margin-left: 20px;
-    box-sizing:border-box;
-    height: 70%;
-    width: 100%;
-    border: 2px solid black;
-    border-radius:15px;
-    
-    
+.card-img-top {
+	margin-left: 20px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	height: 70%;
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 15px;
 }
 
-.card-body{
-    text-align: center;
-    color:  #3b853f;
+.card-body {
+	text-align: center;
+	color: #3b853f;
 }
 
-
-
-.btn.btn-dark:hover{
-    background:  #3b853f;
-
+.btn.btn-dark:hover {
+	background: #3b853f;
 }
-.container-fluid{
-    margin: 0px;
-    padding: 0;
+
+.container-fluid {
+	margin: 0px;
+	padding: 0;
 }
+
 
 /*Buttons*/
 
-.portfolio-btn{
-    text-align: center;
-    transition-duration: .2s;
-    cursor:pointer;
-    background-color: black;
-
+.portfolio-btn {
+	text-align: center;
+	transition-duration: .2s;
+	cursor: pointer;
+	background-color: black;
 }
-.portfolio-btn .btn-dark:hover{
-     background-color:#3b853f;
-     color:white;
-     
+
+.portfolio-btn .btn-dark:hover {
+	background-color: #3b853f;
+	color: white;
 }
 
 
 /*Get in touch form*/
 
-
-
-.contact-title{
-    font-size: 38px;
-    text-align: center;
-    color: #3b853f;
-    padding-bottom: 5px;
+.contact-title {
+	font-size: 38px;
+	text-align: center;
+	color: #3b853f;
+	padding-bottom: 5px;
 }
 
-#container-contact{
- position: relative;
- width: 700px;
- border: 2px solid #3b853f;
- padding-top: 15px;
- margin-top: 20px;
- margin-bottom: 20px;
- 
+#container-contact {
+	position: relative;
+	width: 70%;
+	border: 2px solid #3b853f;
+	padding-top: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-#form-row{
-    width: 100%;
+#form-row {
+	width: 100%;
 }
 
-.form{
- position: relative;
- top: 50%;
- left: 50%;
- transform: translate(-50%,-50%);
+.form {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.form-group{
-    float: center;
-    box-sizing:content-box;
-    
+.form-group {
+	float: center;
+	box-sizing: border-box;
 }
-
 
 
 /*Method seen on w3schools.com. Modified*/
 
-input[type=text], select, textarea, input[type=email], email{
-  width: 100%; 
-  padding: 10px;
-  border: 2px solid #3b853f;
-  border-radius: 2px; 
-  box-sizing: border-box; 
-  margin-top: 5px; 
-  margin-bottom: 15px; 
-  resize: vertical;
-  
+input[type=text],
+select,
+textarea,
+input[type=email],
+email {
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #3b853f;
+	border-radius: 2px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	resize: vertical;
 }
 
-
-.submit{
-    float: right;
-    background: #3b853f;
-    border: 2px solid darkgreen;
-    border-radius: 2px;
-    color: white;
+.submit {
+	float: right;
+	background: #3b853f;
+	border: 2px solid darkgreen;
+	border-radius: 2px;
+	color: white;
 }
-.submit:hover{
-    background: #032504
+
+.submit:hover {
+	background: #032504
 }
 
 
 /*CSS Responsive breakpoint from https://gist.github.com/EmranAhmed/8044351 */
 
-/*==================================================
-=            Bootstrap 3 Media Queries             =
-==================================================*/
- 
-/*==========  Mobile First Method  ==========*/
- 
-/* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
-    
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {
+	.btn {
+		margin: 15px;
+	}
+	.social {
+		font-size: 25px;
+	}
+	.card-deck {
+		margin-right: 50px;
+	}
+	body {
+		margin-bottom: 0px;
+	}
 }
- 
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
- 
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+	.btn {
+		margin: 15px;
+	}
+	.social {
+		font-size: 25px;
+	}
+	.card-deck {
+		margin-right: 30px;
+	}
 }
- 
+
+
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
- 
+
+@media only screen and (min-width: 768px) {
+	.btn {
+		margin: 15px;
+	}
+	.social {
+		font-size: 25px;
+	}
+	.card-deck {
+		margin-right: 30px;
+	}
 }
- 
+
+
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
- 
+
+@media only screen and (min-width: 992px) {
+	.btn {
+		margin: 15px;
+	}
+	.card-deck {
+		margin-right: 30px;
+	}
 }
- 
+
+
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
- 
+
+@media only screen and (min-width: 1200px) {
+	.btn {
+		margin: 15px;
+	}
+	.card-deck {
+		margin-right: 30px;
+	}
 }
- 
- 
-/*==========  Non-Mobile First Method  ==========*/
- 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
- 
-}
- 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
- 
-}
- 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
- 
-}
- 
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
- 
-}
- 
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-    
-}
- bootstrap-responsive.css
-/* #Media Queries   from foundation.zurb.com
-================================================== */
-
-// Small screens
-@media only screen { } /* Define mobile styles */
-
-@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
-
-// Medium screens
-@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
-
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
-
-// Large screens
-@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
-
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
-
-// XLarge screens
-@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
-
-@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
-
-// XXLarge screens
-@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xlarge screens */
-
-
-
-
-
-////////////////////////////////////////////////////////////////////////////
-
-/* #Media Queries   from getskeleton.com
-================================================== */
-
-/* Smaller than desktop 1200 (devices and browsers) */
-
-@media (min-width: 960px) and (max-width: 1199px) {}
-
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {}
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {}
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {}
-
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
-
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {}
-
-
-/////////////////////////////////////////////////////////////////////////
-
-/* #Media Queries   from getbootstrap.com
-================================================== */
-
-/* Retina ready */
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  
-
- }
-
-/*  xs */
-@media (max-width: 767px) { 
-  
-  }
-
-  
-/* sm */
-@media (min-width: 768px) and (max-width: 991px) { 
-  
-  }
- 
-/* md */
-@media (min-width: 992px) and (max-width: 1199px) { 
-  
-  }
-
-
-////////////////////////////////////////////////////////////////////////////////
-
-/* Extra small devices (phones, less than 768px) */
-@media (max-width: 768px) { 
-  
-  }
-  
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) { 
-  
-  }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) { 
-  
-  }
-  
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-  
-  }

@@ -2,67 +2,63 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap">
     <link rel="stylesheet" href="assets/css/style.css">
-	<title>Krisztina Sarolta Szabó</title>
+    <title>Krisztina Sarolta Szabó</title>
 </head>
 <header>
-	<div>
-		<nav class="active">
-			<ul id="nav" class="list-inline menucontainer">
-				<li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
-					<i class="fa fa-home"></i> <a href="index.html"> Homepage </a>
-				<li class="col-6 col-sm-3 list-inline-item ui-menu-color-aboutme menuitem">
-					<i class="fa fa-comments"></i><a href="aboutme.html"> About me</a>
-				<li class="col-6 col-sm-3 list-inline-item ui-menu-color-portfolio menuitem">
-					<i class="fa fa-folder-open"></i><a href="portfolio.html"> My portfolio </a>
-				<li class="col-6 col-sm-3 list-inline-item ui-contact-color- menuitem">
-					<i class="fa fa-address-book"></i> <a href="get-in-touch.html"> Get in touch!</a>
-			</ul>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+            <ul id="nav" class="list-inline container-fluid">
+                <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
+                    <i class="fa fa-home"></i> <a href="index.html"> Homepage </a>
+                    <li class="col-6 col-sm-3 list-inline-item ui-menu-color-aboutme menuitem">
+                        <i class="fa fa-comments"></i><a href="aboutme.html"> About me</a>
+                        <li class="col-6 col-sm-3 list-inline-item ui-menu-color-portfolio menuitem">
+                            <i class="fa fa-folder-open"></i><a href="portfolio.html"> My portfolio </a>
+                            <li class="col-6 col-sm-3 list-inline-item ui-contact-color- menuitem">
+                                <i class="fa fa-address-book"></i> <a href="get-in-touch.html"> Get in touch!</a>
+            </ul>
 
-		</nav>
-	</div>
+        </nav>
+    </div>
 </header>
 
 <body>
-<form class="container" id="container-contact">
- <div class="row justify-content-center" id="form-row">
-  <div class="form-group col-md-4 col-md-offset-5 align-center ">
-  <p class="contact-title"> Let's get in touch! </p>
-			<label for="fname"> First Name </label>
-			<input type="text" name="firstname" id="fname" placeholder="Your first name..." required>
-			<label for="lname"> Last Name </label>
-			<input type="text" name="lastname" id="lname" placeholder="Your last name..." required>
-			<label for="email" class="email"> Email address </label>
-			<input type="email" name="email" id="email" placeholder="Your email address" required>
-			<label for="time" class="time">How urgent is it?</label>
-			<select id="time" name="time">
-      <option value="blank"> Choose your answer</option>
-      <option value="time"> No rush, we'll talk about it when you are available.</option>
-      <option value="asap">As soon as possible. </option>
-      <option value="no-time">It's urgent, do you have any idea, or ready-made project?</option>
-    </select>
-			<label for="subject"> Please, tell me about your idea</label>
-			<textarea type="text" name="subject" id="subject" placeholder="Let's start working together!"></textarea>
-			<input type="submit" value="Submit" class="submit">
+    <form class="container" id="container-contact">
+        <div class="row justify-content-center" id="form-row">
+            <div class="form-group col-md-4 col-md-offset-5 align-center ">
+                <p class="contact-title"> Let's get in touch! </p>
+                <label for="fname"> First Name </label>
+                <input type="text" name="firstname" id="fname" placeholder="Your first name..." required>
+                <label for="lname"> Last Name </label>
+                <input type="text" name="lastname" id="lname" placeholder="Your last name..." required>
+                <label for="email" class="email"> Email address </label>
+                <input type="email" name="email" id="email" placeholder="Your email address" required>
+                <label for="time" class="time">How urgent is it?</label>
+                <select id="time" name="time">
+                    <option value="blank"> Choose your answer</option>
+                    <option value="time"> No rush, we'll talk about it when you are available.</option>
+                    <option value="asap">As soon as possible. </option>
+                    <option value="no-time">It's urgent, do you have any idea, or ready-made project?</option>
+                </select>
+                <label for="subject"> Please, tell me about your idea</label>
+                <textarea type="text" name="subject" id="subject" placeholder="Let's start working together!"></textarea>
+                <input type="submit" value="Submit" class="submit">
 
-    
-	</div>
- </div>
- </form>
+            </div>
+        </div>
+    </form>
 </body>
 
 <footer class="portfolio-btn">
-	<a href="https://www.linkedin.com/in/krisztina-szab%C3%B3-andr%C3%A9-a75132141/" target="_blank" type="button"
-		class="btn btn-dark">Connect me on LinkedIn!</a>
-	<a href="https://github.com/krisztinatxt" target="_blank" type="button" class="btn btn-dark">Check out my GitHub
+    <a href="https://www.linkedin.com/in/krisztina-szab%C3%B3-andr%C3%A9-a75132141/" target="_blank" type="button" class="btn btn-dark">Connect me on LinkedIn!</a>
+    <a href="https://github.com/krisztinatxt" target="_blank" type="button" class="btn btn-dark">Check out my GitHub
 		Profile!</a>
 
 </footer>
