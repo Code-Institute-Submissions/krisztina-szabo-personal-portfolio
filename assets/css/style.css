@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
-* {
-	box-sizing: border-box;
-}
 
 
-/*Colors*/
 
-html,
-body {
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	box-sizing: border-box;
+/*Body*/
+
+
+body{
+	width: 100%; 
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px; 
+        
+    
 }
 
 
@@ -25,15 +23,15 @@ header {
 	text-decoration-line: none;
 }
 
-nav {
-	width: 100vw;
+nav{
+	
 	background: black;
 	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
 	height: 100%;
-	position: relative;
-	overflow: hidden;
+	width: 99.99%;
+    top:0;
+    left: 0;  
+   
 }
 
 ul {
@@ -83,7 +81,7 @@ li a:hover {
 .background {
 	background-image: url("../images/bg-img.jpg");
 	background-size: cover;
-	height: 651px;
+	height: 650px;
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
@@ -375,6 +373,8 @@ email {
 	background: #032504
 }
 
+/* Footer */
+
 
 /*CSS Responsive breakpoint from https://gist.github.com/EmranAhmed/8044351 */
 
@@ -419,11 +419,16 @@ email {
 		margin: 15px;
 	}
 	.social {
-		font-size: 25px;
+		font-size: 30px;
 	}
 	.card-deck {
 		margin-right: 30px;
 	}
+    #btn-card{
+        margin-bottom:60px;
+                
+    }
+    
 }
 
 
@@ -436,6 +441,10 @@ email {
 	.card-deck {
 		margin-right: 30px;
 	}
+     #btn-card{
+        margin-bottom:20px;
+        
+    }
 }
 
 
@@ -447,5 +456,10 @@ email {
 	}
 	.card-deck {
 		margin-right: 30px;
+        
 	}
+    #btn-card{
+        margin-bottom:20px;
+    }
+    
 }
