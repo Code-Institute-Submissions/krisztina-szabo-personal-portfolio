@@ -284,9 +284,7 @@ a {
 	color: #3b853f;
 }
 
-.btn.btn-dark:hover {
-	background: #3b853f;
-}
+
 
 .container-fluid {
 	margin: 0px;
@@ -306,6 +304,9 @@ a {
 .portfolio-btn .btn-dark:hover {
 	background-color: #3b853f;
 	color: white;
+}
+.btn.btn-dark:hover {
+	background: #3b853f;
 }
 
 
@@ -373,7 +374,7 @@ email {
 	background: #032504
 }
 
-/* Footer */
+
 
 
 /*CSS Responsive breakpoint from https://gist.github.com/EmranAhmed/8044351 */
