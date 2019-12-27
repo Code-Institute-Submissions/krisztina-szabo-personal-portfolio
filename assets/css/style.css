@@ -81,7 +81,8 @@ li a:hover {
 .background {
 	background-image: url("../images/bg-img.jpg");
 	background-size: cover;
-	height: 650px;
+	height: 100%;
+    min-height: 100vh; /*Solution suggested by tutor (Michael)*/
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
@@ -322,6 +323,7 @@ a {
 #container-contact {
 	position: relative;
 	width: 70%;
+    min-height: 100vh;
 	border: 2px solid #3b853f;
 	padding-top: 15px;
 	margin-top: 20px;
