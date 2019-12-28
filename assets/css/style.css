@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
 
@@ -7,7 +9,8 @@
 
 body{
 	width: 100%; 
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+            box-sizing: border-box;
     padding: 0px;
     margin:0px; 
         
@@ -20,7 +23,8 @@ body{
 header {
 	font-size: 24px;
 	font-family: "PT Sans", sans-serif;
-	text-decoration-line: none;
+	-webkit-text-decoration-line: none;
+	        text-decoration-line: none;
 }
 
 nav{
@@ -36,6 +40,8 @@ nav{
 
 ul {
 	padding: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	list-style-type: none;
 	margin-bottom: 0;
@@ -97,8 +103,11 @@ li a:hover {
 	height: 180px;
 	width: 180px;
 	margin: 30px auto;
-	align-content: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
 	background-repeat: no-repeat;
+	-webkit-transition: ease-in .3s;
+	-o-transition: ease-in .3s;
 	transition: ease-in .3s;
 }
 
@@ -131,10 +140,14 @@ li a:hover {
 
 .social-media {
 	list-style: none;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .social-media ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -149,7 +162,8 @@ li a:hover {
 /* Introduction*/
 
 .me {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	display: inline-block;
 	font-size: 18px;
 	border: 2px solid #3b853f;
@@ -211,11 +225,16 @@ a {
 .subjects {
 	list-style: circle;
 	text-align: left;
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	padding-inline-start: 40px;
+	-webkit-margin-before: 1em;
+	        margin-block-start: 1em;
+	-webkit-margin-after: 1em;
+	        margin-block-end: 1em;
+	-webkit-margin-start: 0px;
+	        margin-inline-start: 0px;
+	-webkit-margin-end: 0px;
+	        margin-inline-end: 0px;
+	-webkit-padding-start: 40px;
+	        padding-inline-start: 40px;
 	display: table;
 }
 
@@ -267,13 +286,15 @@ a {
 	text-align: left;
 	height: 100%;
 	margin: 20px 20px 20px 20px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 .card-img-top {
 	margin-left: 20px;
 	margin-top: 20px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	height: 70%;
 	width: 100%;
 	border: 2px solid black;
@@ -297,7 +318,9 @@ a {
 
 .portfolio-btn {
 	text-align: center;
-	transition-duration: .2s;
+	-webkit-transition-duration: .2s;
+	     -o-transition-duration: .2s;
+	        transition-duration: .2s;
 	cursor: pointer;
 	background-color: black;
 }
@@ -338,12 +361,15 @@ a {
 	position: relative;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
 }
 
 .form-group {
 	float: center;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 
@@ -358,7 +384,8 @@ email {
 	padding: 10px;
 	border: 2px solid #3b853f;
 	border-radius: 2px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	margin-top: 5px;
 	margin-bottom: 15px;
 	resize: vertical;
