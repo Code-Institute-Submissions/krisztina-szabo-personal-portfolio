@@ -19,4 +19,4 @@ You can check out the live demo [here](https://krisztinatxt.github.io/first-mile
 
 [First drafts ](../wireframes/first)
 
-[Planning of the final version, on different devices](../wireframes/modified)
+[Planning of the final version, on different devices](.../wireframes/modified)
