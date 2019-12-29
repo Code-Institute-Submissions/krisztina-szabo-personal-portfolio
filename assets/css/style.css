@@ -294,7 +294,7 @@ a {
 	margin-left: 20px;
 	margin-top: 20px;
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	 box-sizing: border-box;
 	height: 70%;
 	width: 100%;
 	border: 2px solid black;
@@ -364,6 +364,7 @@ a {
 	-webkit-transform: translate(-50%, -50%);
 	    -ms-transform: translate(-50%, -50%);
 	        transform: translate(-50%, -50%);
+            
 }
 
 .form-group {
@@ -390,6 +391,7 @@ email {
 	margin-bottom: 15px;
 	resize: vertical;
 }
+
 
 .submit {
 	float: right;

@@ -26,7 +26,8 @@ You can check out the live demo [here](https://krisztinatxt.github.io/first-mile
 - On the Homepage (index.html) you can see the menu navigation bar with relevant Fontawesome icons. When you hover, the background color becomes green (#3b853f). This color see you through the whole page, you find it in the portrait picture,  borders, buttons. Besides this gradiation, I've used only black and white.
 You can also see a small introduction, a portrait picture, three navigation buttons helping in orientation on the page, and also three rounded icons leading you to my social media profiles.
 - On About me page you can find to navigation bars, first one is the menu I've presented before, the other one is the footer containing two buttons, drawing the attention to my LinkedIn profile and GitHub repositiories. These two navigation items appears on three of the four pages (I thought that having a footer on my Homepage makes the general aspect too cluttered.
-On this page I have a small introduction about myself, and a timeline with my imaginary and real work history. The basic structure of the timeline was written by written by Andrew R McHugh (https://codepen.io). It was significantly modified.
+On this page I have a small introduction about myself, and a timeline with my imaginary and real work history. The basic structure of the timeline was written by written by Andrew R McHugh, you can find the sourcecode [here](https://codepen.io/armthethinker/pen/nEtke).
+ It was significantly modified.
 - My portfolio page is a showcase of my recent work (also fiction). Under the card you can see the name of the project, and for more information, you can click on the navigation button located beneath each of the cards.
 -On the Get in touch page you can contact me using a form. After typing your name and email address, you can choose the best option about scheduling the project, and you can also tell me about your ideas.
 Your name and your valid email address are required.  
@@ -38,7 +39,7 @@ Your name and your valid email address are required.
 
 ## Technologies Used
 
-- [Html](https://en.wikipedia.org/wiki/HTML5)
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [Bootstrap](https://getbootstrap.com/)
 - [HTML-Formatter](https://htmlformatter.com/)
