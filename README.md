@@ -34,8 +34,8 @@ Your name and your valid email address are required.
 
 ### Features Left to Implement
 
-- In the future I plan to add more real work experience to make My portfolio and About me pages better. 
-- In my Get in touch page I would like to fix my form to work properly, so when I have enough knowledge for this, I will come back to this section, and I will make my submit button work. 
+- In the future I plan to add further projects, work experience to make My portfolio and About me pages better. 
+- On my Get in touch page I would like to fix my form to work properly, so when I have enough knowledge for this, I will come back to this section, and I will make my submit button work. 
 
 ## Technologies Used
 
@@ -48,15 +48,77 @@ Your name and your valid email address are required.
 - [CSS-Validator](https://validator.w3.org/)
 - [Autoprefixer](https://autoprefixer.github.io/)
 
-## Testing
+#Testing
+
+All links were manually tested, and all of them open in a new tab using target:"_blank" attribute.
+The whole website is responsive on different type of devices.
+
+## Fixed issues
+
+- My menu navigation bar (the last list items of it) created an overflow on my page, so I had a narrow white space on the right. After trying everything I could do it, I asked the Slack community about the reason of the overflow, they helped me out with it. The problem was with the Get in touch list item's bootstrap part, changing the col-sm to 2, it solved to problem.
+- I've used px to set the height of my background image, which was nice on small desktop screen, but it gave me a white space browsing from a phone, tablet, or wider screen. With this issue, one of the tutors helped me out: I changed the height to 100% and I've set a min-height. After that I've realized that I have the same problem with my contact form, and I fixed it using the same method.
+
+### Homepage
+
+- When you open my portfolio website, you can see on each page the menu with Fontawesome icons. If you hover, the section changes the background to green. Same thing happen if you move your cursor to my portrait picture, or any of the buttons.
+- In the background you can see a picture, which covers the whole page. 
+- You can jump to Get In touch form (via I have and idea button), to About me page (via Tell me more succes button) and you can also download my printable CV by clicking on Download my CV button.
+- Below the succes buttons, you can connect me on social media (Facebook and LinkedIn) or You can visit my GitHub respositories.
 
 
-## Deployment
 
-## Credits
+### About me
+
+- In About me section you can see a textbox with a self-introduction.
+- Under the introduction, it's a timeline with five different sections (icon, year, positions, a dividing line and a description). 
+- On About me, My portfolio and Get in touch pages, you can find a footer, where you can find two buttons: one leading you to my LinkedIn and one to my GitHub profile.
+
+### My portfolio
+ - My portfolio contains six card showing my "recent projects". In the body of the card, you can see the name of the project, and by clicking on "More information" button, in a new tab will open the original page of the projects.
+ - The footer section is the same as before.
+
+### Get in touch!
+ - The Get in touch page contains a contact form and the footer.
+ - Before you submit the form, you have to type your name, and your valid email address, these sections are required.
+
+# Deployment
+
+My first website was written in GitPod, and it's hosted using Github, deployed from master branch (via Settings). I've saved after every important change: starting with git status, git add ., git commit -m"" and in the end pushing the git to the Github respository.
+After every commitment, when you refresh the repository, you can see the changes. 
+If you want to clone the git, because you would like to edit locally, you can type **git clone** plus the [link](https://github.com/krisztinatxt/first-milestone-project) to my git.
+
+The main (landing) page of the website is named index.html. 
+
+
+# Credits
+
 
 ## Content
 
+- All the content were written by me. The timeline code was written by Andrew R McHugh.  
+
 ## Media
 
+ - The portrait picture is my property. 
+ - The background picture of the homepage is from [Pexels](https://www.pexels.com/photo/gray-laptop-computer-showing-html-codes-in-shallow-focus-photography-160107/). 
+ - The photos used in this site were obtained from [Steam](https://store.steampowered.com/), [Prezi](http://prezi.com), [Arab Games](https://www.ar-gamez.com/planetbase/) and [Nintendo](https://www.nintendo.nl/Games/Nintendo-Switch-download-software/Machinarium-1464925.html).
+
+
+ 
 ## Acknowledgements
+- The bootstrap codes are from the official website of the [Bootstrap](https://getbootstrap.com/).
+- I've set the responsive breakpoint using [this](https://gist.github.com/EmranAhmed/8044351) template. 
+- I've couldn't understand how to Bootstrap without [this video](https://www.youtube.com/watch?v=zDpCejbl1sU&amp;feature=youtu.be).
+- I've learnt how to center a form from [this article](https://stackoverflow.com/questions/20853066/how-to-center-form-in-bootstrap-3).
+- To write this README I used this [template](https://github.com/Code-Institute-Solutions/readme-template) and this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+- I've learnt a lot just browsing other sites using devtool, and reading the Stack Overflow. Thank you for the help to my mentor, the tutors and the Stack Overflow community. 
+
+
+
+**This site is for educational use.**
+
+***Krisztina Szabó***
+
+***Code Institute*** 
+
+***2019***
