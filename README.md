@@ -1,8 +1,8 @@
 # Krisztina Szabó Personal Portfolio Website
-This page is my portfolio website. I made as my first milestone project at Code Institute.
+This page is my portfolio website. I made it as my first milestone project at Code Institute.
 The purpose of the project is to introduce myself and my work to potential customers and recruiters.
-Browsing this page the user can get every kind of useful information about me: my portfolio, my work history, my interests, a group of  the links to my social media account and to my GitHub repository. If the user it's not interested in browsing, they can reach my resumé in printable (pdf) version directly from the homepage.
-The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in Touch*. I've built my project using HTML5, CSS3 and Bootstrap.
+Browsing this page the user can get every kind of useful information about me: my portfolio, my work history, my interests, a group of  the links to my social media accounts and to my GitHub repository. If the user it's not interested in browsing, they can reach my resumé in printable (pdf) version directly from the homepage.
+The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in Touch*. I built my project using HTML5, CSS3 and Bootstrap.
 
 You can check out the live demo [here](https://krisztinatxt.github.io/first-milestone-project/). 
 
@@ -11,10 +11,10 @@ You can check out the live demo [here](https://krisztinatxt.github.io/first-mile
 ### User Story
 
 * As a recruiter, I would like to get an insight into Krisztina's work and I also want to have a printable resumé what I can present to my superior.
-* As an employer, I visit this page to see a showcase of a potencial employed's work. </li>
+* As an employer, I visit this page to see a showcase of a potential employee's work. </li>
 
 ### Wireframes
- When I started working on this project, I've had a picture of the site in my head. This picture changed a lot in the last few weeks. You can see the progress below.
+ When I started working on this project, I had a picture of the site in my head. This picture has changed a lot in the last few weeks. You can see the progress below.
 
 [First drafts ](https://github.com/krisztinatxt/first-milestone-project/tree/master/wireframes/first)
 
@@ -23,8 +23,8 @@ You can check out the live demo [here](https://krisztinatxt.github.io/first-mile
 ## Features
 ### Existing Features
 
-- On the Homepage (index.html) you can see the menu navigation bar with relevant Fontawesome icons. When you hover, the background color becomes green (#3b853f). This color sees you through the whole page, you find it in the portrait picture,  borders, buttons. Besides this gradiation, I've used only black and white.
-You can also see a small introduction, a portrait picture, three navigation buttons helping in orientation on the page, and also three rounded icons leading you to my social media profiles.
+- On the Homepage (index.html) you can see the menu navigation bar with relevant Fontawesome icons. When you hover, the background color turns green (#3b853f). This color sees you through the whole page, you find it in the portrait picture,  borders, buttons. Besides this gradiation, I used only black and white.
+You can also see a small introduction, a portrait picture, three navigation buttons helping in orientation on the page, and also three rounded icons leading you to my social media accounts.
 - On About me page you can find two navigation bars, first one is the menu I've presented before, the other one is the footer containing two buttons, drawing the attention to my LinkedIn profile and GitHub repositories. These two navigation items appear on three of the four pages (I thought that having a footer on my Homepage makes the general aspect too cluttered.
 On this page, I have a small introduction about myself, and a timeline with my imaginary and real work history. The basic structure of the timeline was written by Andrew R McHugh, you can find the source code [here](https://codepen.io/armthethinker/pen/nEtke).
  It was significantly modified.
@@ -51,30 +51,30 @@ Your name and your valid email address are required.
 # Testing
 
 All links were manually tested, and all of them open in a new tab using target:"_blank" attribute.
-The whole website is responsive using a different type of devices.
+The whole website is responsive using a different types of devices.
 
 ## Fixed issues
 
-- My menu navigation bar (the last list items of it) created an overflow on my page, so I had a narrow white space on the right. After trying everything I could do it, I asked the Slack community about the reason of the overflow, they helped me out with it. The problem was with the Get in touch list item's bootstrap part, changing the col-sm to 2, it solved the problem.
-- I've used px to set the height of my background image, which was nice on a small desktop screen, but it gave me a white space browsing from a phone, tablet, or wider screen. With this issue, one of the tutors helped me out: I changed the height to 100% and I've set a min-height. After that, I've realized that I have the same problem with my contact form, and I fixed it using the same method.
+- My menu navigation bar (the last list item of it) created an overflow on my page, so I had a narrow white space on the right. After trying everything I could do it, I asked the Slack community about the reason of the overflow, they helped me out with it. The problem was with the Get in touch list item's bootstrap part, changing the col-sm to 2 solved the problem.
+- I used px to set the height of my background image, which was nice on a small desktop screen, but it gave me a white space browsing from a phone, tablet, or wider screen. With this issue, one of the tutors helped me out: I changed the height to 100% and I set a min-height. After that, I realized that I have the same problem with my contact form, and I fixed it using the same method.
 
 ### Homepage
 
 - When you open my portfolio website, you can see on each page the menu with Fontawesome icons. If you hover, the section changes the background to green. The same thing happens if you move your cursor to my portrait picture or any of the buttons.
 - In the background, you can see a picture, which covers the whole page. 
 - You can jump to Get In touch form (via I have and idea button), to About me page (via Tell me more success button) and you can also download my printable CV by clicking on Download my CV button.
-- Below the success buttons, you can connect me on social media (Facebook and LinkedIn) or You can visit my GitHub repositories.
+- Below the success buttons, you can connect me on social media accounts (Facebook and LinkedIn) or You can visit my GitHub repositories.
 
 
 
 ### About me
 
 - In About me section you can see a textbox with a self-introduction.
-- Under the introduction, it's a timeline with five different sections (icon, year, positions, a dividing line, and a description). 
+- Under the introduction, there is a timeline with five different sections (icon, year, positions, a dividing line, and a description). 
 - On About me, My portfolio and Get in touch pages, you can find a footer, where you can find two buttons: one leading you to my LinkedIn and one to my GitHub profile.
 
 ### My portfolio
- - My portfolio contains six cards showing my "recent projects". In the body of the card, you can see the name of the project, and by clicking on the  "More information" button, in a new tab will open the original page of the projects.
+ - My portfolio contains six cards showing my "recent projects". In the body of the card, you can see the name of the project, and by clicking on the  "More information" button, a new tab will open with the original page of the projects.
  - The footer section is the same as before.
 
 ### Get in touch!
@@ -95,7 +95,7 @@ The main (landing) page of the website is named index.html.
 
 ## Content
 
-- All the content were written by me. The timeline code was written by Andrew R McHugh.  
+- The content is written by me. The timeline code was written by Andrew R McHugh.  
 
 ## Media
 
@@ -107,11 +107,11 @@ The main (landing) page of the website is named index.html.
  
 ## Acknowledgements
 - The bootstrap codes are from the official website of the [Bootstrap](https://getbootstrap.com/).
-- I've set the responsive breakpoint using [this](https://gist.github.com/EmranAhmed/8044351) template. 
-- I've couldn't understand how to Bootstrap without [this video](https://www.youtube.com/watch?v=zDpCejbl1sU&amp;feature=youtu.be).
-- I've learned how to center a form from [this article](https://stackoverflow.com/questions/20853066/how-to-center-form-in-bootstrap-3).
+- I  set the responsive breakpoint using [this](https://gist.github.com/EmranAhmed/8044351) template. 
+- I couldn't have understood how to Bootstrap without [this video](https://www.youtube.com/watch?v=zDpCejbl1sU&amp;feature=youtu.be).
+- I learned how to center a form from [this article](https://stackoverflow.com/questions/20853066/how-to-center-form-in-bootstrap-3).
 - To write this README I used this [template](https://github.com/Code-Institute-Solutions/readme-template) and this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-- I've learned a lot just browsing other sites using devtool, and reading the Slack. Thank you for the help to my mentor, the tutors and the Slack community. 
+- I learned a lot just browsing other sites using devtool, and reading the Slack. Thank you for the help to my mentor, the tutors and the Slack community. 
 
 
 
