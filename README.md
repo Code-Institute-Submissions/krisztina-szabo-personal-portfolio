@@ -4,7 +4,7 @@ This page is my portfolio website. I made it as my first milestone project at Co
 The purpose of the project is to introduce myself and my work to potential customers and recruiters.
 Browsing this page the user can get every kind of useful information about me: my portfolio, my work history, my interests, a group of  the links to my social media accounts and to my GitHub repository. If the user it's not interested in browsing, they can reach my resumé in printable (pdf) version directly from the homepage.
 The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in Touch*. I built my project using HTML5, CSS3 and Bootstrap.
-![Responsive design]( "Responsive Design")
+![Responsive design](https://github.com/krisztinatxt/krisztina-szabo-personal-portfolio/blob/master/assets/images/amiresponsive.jpg "Responsive Design")
 ## UX
 
 ### User Story
