@@ -4,7 +4,7 @@ This page is my portfolio website. I made it as my first milestone project at Co
 The purpose of the project is to introduce myself and my work to potential customers and recruiters.
 Browsing this page the user can get every kind of useful information about me: my portfolio, my work history, my interests, a group of  the links to my social media accounts and to my GitHub repository. If the user it's not interested in browsing, they can reach my resumé in printable (pdf) version directly from the homepage.
 The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in Touch*. I built my project using HTML5, CSS3 and Bootstrap.
-
+![Responsive design]( "Responsive Design")
 ## UX
 
 ### User Story
@@ -29,7 +29,7 @@ The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in
 
 * On the Homepage (index.html) you can see the menu navigation bar with relevant Fontawesome icons. When you hover, the background color turns green (#3b853f). This color sees you through the whole page, you find it in the portrait picture,  borders, buttons.
   * Besides this gradiation, I used only black and white.
-  * You can also see a small introduction, a portrait picture, three navigation buttons helping in orientation on the page, and also three rounded icons leading you to my social media accounts.
+  * You can also see a small introduction, a portrait picture (with an ease in transition and a green hover), three navigation buttons helping in orientation on the page, and also three rounded icons leading you to my social media accounts.
 * On About me page you can find two navigation bars, first one is the menu I've presented before, the other one is the footer containing two buttons, drawing the attention to my LinkedIn profile and GitHub repositories. These two navigation items appear on three of the four pages (I thought that having a footer on my Homepage makes the general aspect too cluttered.
 On this page, I have a small introduction about myself, and a timeline with my imaginary and real work history. The basic structure of the timeline was written by Andrew R McHugh, you can find the source code [here](https://codepen.io/armthethinker/pen/nEtke). It was significantly modified.
 * My portfolio page is a showcase of my recent work (also fiction). Under the card, you can see the name of the project, and for more information, you can click on the navigation button located beneath each of the cards.
@@ -76,19 +76,18 @@ The whole website is responsive using a different types of devices.
 * In the background, you can see a picture, which covers the whole page.
 * You can jump to Get In touch form (via I have and idea button), to About me page (via Tell me more success button) and you can also download my printable CV by clicking on Download my CV button.
 * Below the success buttons, you can connect me on social media accounts (Facebook and LinkedIn) or You can visit my GitHub repositories.
-
+* On every page you can find a footer, where you can see two buttons: one leading you to my LinkedIn profile and one to my GitHub repositories.
+    * All of the buttons on the website have the same style.
 #### About me
 
 * In About me section you can see a textbox with a self-introduction.
 * Under the introduction, there is a timeline with five different sections (icon, year, positions, a dividing line, and a description).
-* On every page you can find a footer, where you can see two buttons: one leading you to my LinkedIn and one to my GitHub profile.
-    * All of the buttons on the website have the same style.
+* The footer section is the same as before.
 
 #### My portfolio
 
 * My portfolio contains six `cards` showing my "recent projects".
   * In the body of the card, you can see the name of the project, and by clicking on the  "More information" button, a new tab will open with the original page of the projects.
-* The footer section is the same as before.
 
 #### Get in touch
 
@@ -128,7 +127,7 @@ Most of the content is written by me.
 
 The timeline code was written by [Andrew R McHugh](https://codepen.io/armthethinker/pen/nEtke).
 
-The Deployment section is taken from a  README  written by [Anna Greaves](https://github.com/AJGreaves).
+The base of the Deployment section is taken from a  README  written by [Anna Greaves](https://github.com/AJGreaves).
 
 ### Media
 
