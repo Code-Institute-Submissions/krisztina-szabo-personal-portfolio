@@ -33,6 +33,7 @@ The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in
 * On About me page you can find two navigation bars, first one is the menu I've presented before, the other one is the footer containing two buttons, drawing the attention to my LinkedIn profile and GitHub repositories. These two navigation items appear on three of the four pages (I thought that having a footer on my Homepage makes the general aspect too cluttered.
 On this page, I have a small introduction about myself, and a timeline with my imaginary and real work history. The basic structure of the timeline was written by Andrew R McHugh, you can find the source code [here](https://codepen.io/armthethinker/pen/nEtke). It was significantly modified.
 * My portfolio page is a showcase of my recent work (also fiction). Under the card, you can see the name of the project, and for more information, you can click on the navigation button located beneath each of the cards.
+    * If you click on the pictures, it leads you to the same page as "More information".
 * On the Get in touch page, you can contact me using a form. After typing your name and email address, you can choose the best option for scheduling the project, and you can also tell me about your ideas.
 Your name and your valid email address are required.  
 
@@ -40,6 +41,8 @@ Your name and your valid email address are required.
 
 * In the future I plan to add further projects, work experience to make My portfolio and About me pages better.
 * On my Get in touch page, I would like to fix my form to work properly, so when I have enough knowledge for this, I will come back to this section, and I will make the submit button work.
+* After having enough knowledge, I want to come back, and use jquery and popper.js to make my menu transform to a drowdown menu on small screens.
+* Getting to know how to use JavasScript, I want to fix my form (currently you can submit with Choose your answer).
 
 ## Technologies Used
 
@@ -57,14 +60,15 @@ Your name and your valid email address are required.
 
 ## Testing
 
-All links were manually tested, and all of them open in a new tab using `target:"_blank"` attribute.
+All links were manually tested, and all of them open in a new tab using `target:"_blank"` and `rel="noopener"` attribute.
 The whole website is responsive using a different types of devices.
 
 ### Fixed issues
 
 * My menu navigation bar (the last list item of it) created an overflow on my page, so I had a narrow white space on the right. After trying everything I could do it, I asked the Slack community about the reason of the overflow, they helped me out with it. The problem was with the Get in touch list item's bootstrap part, changing the col-sm to 2 solved the problem.
 * I used px to set the height of my background image, which was nice on a small desktop screen, but it gave me a white space browsing from a phone, tablet, or wider screen. With this issue, one of the tutors helped me out: I changed the height to 100% and I set a min-height. After that, I realized that I have the same problem with my contact form, and I fixed it using the same method.
-
+* Before submitting this project, I posted my GitHub page in Slack, and I've got a lot of useful feedback on how to make this site more professional. 
+* I changed the structure of the code, I fixed some inconsistency in my bootstrap grid, I made the content more readable, I made my portfolio picture clickable,  I updated the links, I edited my README file. Thanks for the help to [Simon Daehlin](https://github.com/Eventyret) and [Richard Wells](https://github.com/D0nni387).
 #### Homepage
 
 * When you open my portfolio website, you can see on each page the menu with Fontawesome icons.
@@ -77,7 +81,8 @@ The whole website is responsive using a different types of devices.
 
 * In About me section you can see a textbox with a self-introduction.
 * Under the introduction, there is a timeline with five different sections (icon, year, positions, a dividing line, and a description).
-* On About me, My portfolio and Get in touch pages, you can find a footer, where you can find two buttons: one leading you to my LinkedIn and one to my GitHub profile.
+* On every page you can find a footer, where you can see two buttons: one leading you to my LinkedIn and one to my GitHub profile.
+    * All of the buttons on the website have the same style.
 
 #### My portfolio
 
@@ -135,9 +140,10 @@ The Deployment section is taken from a  README  written by [Anna Greaves](https:
 
 * The bootstrap codes are from the official website of the [Bootstrap](https://getbootstrap.com/).
 * I  set the responsive breakpoint using [this](https://gist.github.com/EmranAhmed/8044351) template.
-* I couldn't have understood how to Bootstrap without [this video](https://www.youtube.com/watch?v=zDpCejbl1sU&amp;feature=youtu.be).
+* I couldn't have understood how to Bootstrap without [this video](https://www.youtube.com/watch?v=zDpCejbl1sU&amp;feature=youtu.be). Thanks, [Anna](https://github.com/AJGreaves)!
 * I learned how to center a form from [this article](https://stackoverflow.com/questions/20853066/how-to-center-form-in-bootstrap-3).
 * To write this README I used this [template](https://github.com/Code-Institute-Solutions/readme-template) and this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+* Special thanks to [Richard Wells](https://github.com/D0nni387) and [Simen Daehlin](https://github.com/Eventyret) for the detailed feedback on my project. 
 * I learned a lot just browsing other sites using devtool, and reading the Slack. Thank you for the help to my mentor, the tutors and the Slack community.
 
 **This site is for educational use.**

@@ -28,6 +28,12 @@ header {
 	        text-decoration-line: none;
 }
 
+.container-menu{
+    padding:0;
+    margin: 0;
+    weight:99%;
+    min-width:70vh;
+}
 nav{
 	
 	background: black;
@@ -63,6 +69,10 @@ li a:hover {
 .container-fluid {
 	margin: 0;
 	padding: 0;
+}
+.fa{
+    color: #e1f3e7;
+
 }
 
 
@@ -104,10 +114,8 @@ li a:hover {
 	width: 11.25rem;
 	margin: 1.875rem auto;
 	-ms-flex-line-pack: center;
-	    align-content: center;
+	align-content: center;
 	background-repeat: no-repeat;
-	-webkit-transition: ease-in .3s;
-	-o-transition: ease-in .3s;
 	transition: ease-in .3s;
 }
 
@@ -154,10 +162,6 @@ li a:hover {
 .social-media li {
 	padding: 0.3125rem;
 }
-
-
-/* About me*/
-
 
 /* Introduction*/
 
@@ -304,14 +308,6 @@ a {
 	text-align: center;
 	color: #3b853f;
 }
-
-
-
-.container-fluid {
-	margin: 0;
-	padding: 0;
-}
-
 
 /*Buttons*/
 
