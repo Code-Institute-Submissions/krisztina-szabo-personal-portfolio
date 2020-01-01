@@ -51,10 +51,13 @@ Your name and your valid email address are required.
 * [CSS-Beautifyer](https://www.freeformatter.com/css-beautifier.html)
 * [CSS-Validator](https://validator.w3.org/)
 * [Autoprefixer](https://autoprefixer.github.io/)
+* [FontAwesome](https://fontawesome.com/)
+* [GoogleFonts](https://fonts.google.com/)
+* [markdownlint](https://dlaa.me/markdownlint/)
 
 ## Testing
 
-All links were manually tested, and all of them open in a new tab using target:"_blank" attribute.
+All links were manually tested, and all of them open in a new tab using `target:"_blank"` attribute.
 The whole website is responsive using a different types of devices.
 
 ### Fixed issues
@@ -65,7 +68,7 @@ The whole website is responsive using a different types of devices.
 #### Homepage
 
 * When you open my portfolio website, you can see on each page the menu with Fontawesome icons.
-  * If you hover, the section changes the background to green. The same thing happens if you move your cursor to my portrait picture or any of the buttons.
+  * If you `hover`, the section changes the background to green. The same thing happens if you move your cursor to my portrait picture or any of the buttons.
 * In the background, you can see a picture, which covers the whole page.
 * You can jump to Get In touch form (via I have and idea button), to About me page (via Tell me more success button) and you can also download my printable CV by clicking on Download my CV button.
 * Below the success buttons, you can connect me on social media accounts (Facebook and LinkedIn) or You can visit my GitHub repositories.
@@ -78,7 +81,7 @@ The whole website is responsive using a different types of devices.
 
 #### My portfolio
 
-* My portfolio contains six cards showing my "recent projects".
+* My portfolio contains six `cards` showing my "recent projects".
   * In the body of the card, you can see the name of the project, and by clicking on the  "More information" button, a new tab will open with the original page of the projects.
 * The footer section is the same as before.
 
@@ -91,14 +94,36 @@ The whole website is responsive using a different types of devices.
 
 My first website was written in GitPod, and it's hosted using Github, deployed from the master branch (via Settings). I've saved after every important change: starting with git status, git add ., git commit -m"" and in the end pushing the git to the Github repository.
 After every commitment, when you refresh the repository, you can see the changes.
-If you want to clone the git because you would like to edit locally, you can type **git clone** plus the [link](https://github.com/krisztinatxt/first-milestone-project) to my git.
 The main (landing) page of the website is named index.html.
+
+### How to deploy
+* Login to GitHub.
+* From the list of the repositories, select [this one](https://github.com/krisztinatxt/first-milestone-project).
+* From the menu, click on the Settings (you can find under the name of the repository).
+* Scroll down to the Page section, select Master Branch from the dropdown menu. 
+* The website is deployed, you can find the link in Page section.
+* If it's not working, or you can't see the changes you've made, wait a minute, and refresh the page. 
+* Every time you commit changes, you can find the link of the deployed site at the same place.
+
+### Local deployment
+If you want to clone this project and run locally, you have to do this:
+* Follow [this](https://github.com/krisztinatxt/first-milestone-project) link to my repository on GitHub. 
+* Click on the Clone or download button (right side, next to the Gitpod button).
+* Copy the clone URL. 
+* In your local IDE open Git Bash.
+* Change the working directory to the location where you want the cloned directory to be made.
+* Type `git clone`, and paste the URL you copied from the Clone or download section.
+* Press Enter. Your local clone it's created.
 
 ## Credits
 
 ### Content
 
- The content is written by me. The timeline code was written by Andrew R McHugh.  
+Most of the content is written by me.
+
+The timeline code was written by [Andrew R McHugh](https://codepen.io/armthethinker/pen/nEtke).
+
+The Deployment section is taken from a  README  written by [Anna Greaves](https://github.com/AJGreaves).
 
 ### Media
 
