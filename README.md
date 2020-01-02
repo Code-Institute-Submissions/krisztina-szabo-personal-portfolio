@@ -135,7 +135,7 @@ Most of the content is written by me.
 
 The timeline code was written by [Andrew R McHugh](https://codepen.io/armthethinker/pen/nEtke).
 
-The base of the Deployment section is taken from a  README  written by [Anna Greaves](https://github.com/AJGreaves).
+The inspiration for the README comes from [Anna Greaves](https://github.com/AJGreaves).
 
 ### Media
 
@@ -150,6 +150,7 @@ The base of the Deployment section is taken from a  README  written by [Anna Gre
 * I couldn't have understood how to Bootstrap without [this video](https://www.youtube.com/watch?v=zDpCejbl1sU&amp;feature=youtu.be). Thanks, [Anna](https://github.com/AJGreaves)!
 * I learned how to center a form from [this article](https://stackoverflow.com/questions/20853066/how-to-center-form-in-bootstrap-3).
 * To write this README I used this [template](https://github.com/Code-Institute-Solutions/readme-template) and this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+* I learned a lot from browsing the templates on [W3Schools](https://www.w3schools.com/).
 * Special thanks to [Richard Wells](https://github.com/D0nni387) and [Simen Daehlin](https://github.com/Eventyret) for the detailed feedback on my project.
 * I learned a lot just browsing other sites using devtool, and reading the Slack. Thank you for the help to my mentor, the tutors and the Slack community.
 
