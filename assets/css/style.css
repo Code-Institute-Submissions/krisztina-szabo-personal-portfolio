@@ -41,8 +41,6 @@ nav {
 
 ul {
 	padding: 0;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	list-style-type: none;
 	margin-bottom: 0;
@@ -133,30 +131,6 @@ li a:hover {
 	position: relative;
 	padding-top: 1.25rem;
 }
-
-.social {
-	font-size: 1.875rem;
-	padding: 1.25rem;
-	text-align: center;
-}
-
-.social-media {
-	list-style: none;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-.social-media ul {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
-
-.social-media li {
-	padding: 0.3125rem;
-}
-
 
 /* Introduction*/
 
@@ -304,7 +278,7 @@ a {
 }
 
 
-/*Buttons*/
+/*Portfolio buttons*/
 
 .portfolio-btn {
 	text-align: center;
@@ -312,8 +286,7 @@ a {
 	-o-transition-duration: .2s;
 	transition-duration: .2s;
 	cursor: pointer;
-	background-color: black;
-}
+	}
 
 .portfolio-btn .btn-dark:hover {
 	background-color: #3b853f;
@@ -394,6 +367,24 @@ email {
 	background: #032504
 }
 
+/*Footer*/
+
+footer {
+	background: black;
+    padding: 0.1rem;
+}
+
+.footer-icons {
+    list-style: none;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+    
+}
+
+.footer-icons li {
+    padding: 0.5rem;
+}
 
 /*CSS Responsive breakpoint from https://gist.github.com/EmranAhmed/8044351 */
 
@@ -404,7 +395,7 @@ email {
 	.btn {
 		margin: 0.9375rem;
 	}
-	.social {
+	.footer-icons {
 		font-size: 1.5625rem;
 	}
 	.card-deck {
@@ -422,7 +413,7 @@ email {
 	.btn {
 		margin: 0.9375rem;
 	}
-	.social {
+    .footer-icons {
 		font-size: 1.5625rem;
 	}
 	.card-deck {
@@ -437,7 +428,7 @@ email {
 	.btn {
 		margin: 0.9375rem;
 	}
-	.social {
+	.footer-icons {
 		font-size: 1.875rem;
 	}
 	.card-deck {
