@@ -1,32 +1,22 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
-
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
-
-/*Body*/
-
 body {
 	width: 100%;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 	font-family: "PT Sans", sans-serif;
 }
 
-
-/*Header-menu*/
-
 header {
 	font-size: 1.5rem;
 	font-family: "PT Sans", sans-serif;
-	-webkit-text-decoration-line: none;
 	text-decoration-line: none;
 }
 
 .container-menu {
 	padding: 0;
 	margin: 0;
-	weight: 99%;
+	height: 99%;
 	min-width: 70vh;
 }
 
@@ -67,9 +57,6 @@ li a:hover {
 	color: #e1f3e7;
 }
 
-
-/*Body*/
-
 .homepage {
 	color: #3b853f;
 	position: relative;
@@ -82,7 +69,6 @@ li a:hover {
 	text-align: center;
 	padding-top: 2.5rem;
 	font-size: 1.25rem;
-	font-weight: 26.25rem;
 }
 
 .background {
@@ -90,7 +76,6 @@ li a:hover {
 	background-size: cover;
 	height: 100%;
 	min-height: 100vh;
-	/*Solution suggested by tutor (Michael)*/
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
@@ -98,21 +83,20 @@ li a:hover {
 }
 
 .portrait {
-	border: 0.375rem solid;
+	border: solid 0.375rem;
 	border-spacing: 0.25rem;
 	border-color: white;
 	border-radius: 50%;
 	height: 11.25rem;
 	width: 11.25rem;
 	margin: 1.875rem auto;
-	-ms-flex-line-pack: center;
 	align-content: center;
 	background-repeat: no-repeat;
-	transition: ease-in .3s;
+	transition: 0.3s ease-in;
 }
 
 .portrait:hover {
-	border: 0.375rem solid #3b853f;
+	border: #3b853f solid 0.375rem;
 }
 
 .intr-button {
@@ -122,24 +106,17 @@ li a:hover {
 	text-align: center;
 }
 
-.btn-md {
-	size: 1.25rem;
-}
-
 .head-text {
 	text-align: center;
 	position: relative;
 	padding-top: 1.25rem;
 }
 
-/* Introduction*/
-
 .me {
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: inline-block;
 	font-size: 1.125rem;
-	border: 0.125rem solid #3b853f;
+	border: #3b853f solid 0.125rem;
 	background: whitesmoke;
 	height: 70%;
 	width: 70%;
@@ -151,9 +128,6 @@ li a:hover {
 	text-align: center;
 	padding-top: 1.25rem;
 }
-
-
-/* Timeline-source:codepen.io-modified*/
 
 .container {
 	background-color: #fafafa;
@@ -175,14 +149,14 @@ a {
 .year {
 	color: #3b853f;
 	font-weight: 400;
-	font-style: italic
+	font-style: italic;
 }
 
 .big {
 	font-size: larger;
 	color: #3b853f;
 	font-weight: 100;
-	margin-bottom: .5rem;
+	margin-bottom: 0.5rem;
 }
 
 .aside {
@@ -197,16 +171,6 @@ a {
 .subjects {
 	list-style: circle;
 	text-align: left;
-	-webkit-margin-before: 1em;
-	margin-block-start: 1em;
-	-webkit-margin-after: 1em;
-	margin-block-end: 1em;
-	-webkit-margin-start: 0;
-	margin-inline-start: 0;
-	-webkit-margin-end: 0;
-	margin-inline-end: 0;
-	-webkit-padding-start: 2.5rem;
-	padding-inline-start: 2.5rem;
 	display: table;
 }
 
@@ -224,19 +188,12 @@ a {
 .fas,
 .fab {
 	text-align: center;
-	background: oblique;
 	font-size: 1.875rem;
 }
 
 .subjects li {
 	font-size: smaller;
 }
-
-
-/* My portfolio*/
-
-
-/*Pictures, cards*/
 
 .portfolio-title {
 	text-align: center;
@@ -249,7 +206,6 @@ a {
 }
 
 .card {
-	-webkit-column-break-inside: avoid;
 	display: inline-block;
 }
 
@@ -257,18 +213,16 @@ a {
 	text-align: left;
 	height: 100%;
 	margin: 20px 20px 20px 20px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
 .card-img-top {
 	margin-left: 1.25rem;
 	margin-top: 1.25rem;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	height: 70%;
 	width: 100%;
-	border: 0.125rem solid black;
+	border: black solid 0.125rem;
 	border-radius: 0.9375rem;
 }
 
@@ -277,16 +231,11 @@ a {
 	color: #3b853f;
 }
 
-
-/*Portfolio buttons*/
-
 .portfolio-btn {
 	text-align: center;
-	-webkit-transition-duration: .2s;
-	-o-transition-duration: .2s;
-	transition-duration: .2s;
+	transition-duration: 0.2s;
 	cursor: pointer;
-	}
+}
 
 .portfolio-btn .btn-dark:hover {
 	background-color: #3b853f;
@@ -296,9 +245,6 @@ a {
 .btn.btn-dark:hover {
 	background: #3b853f;
 }
-
-
-/*Get in touch form*/
 
 .contact-title {
 	font-size: 2.375rem;
@@ -311,7 +257,7 @@ a {
 	position: relative;
 	width: 60%;
 	min-height: 100vh;
-	border: 0.125rem solid #3b853f;
+	border: #3b853f solid 0.125rem;
 	padding-top: 0.9375rem;
 	margin-top: 1.25rem;
 	margin-bottom: 1.25rem;
@@ -325,30 +271,23 @@ a {
 	position: relative;
 	top: 50%;
 	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
 
 .form-group {
-	float: center;
-	-webkit-box-sizing: border-box;
+	text-align: center;
 	box-sizing: border-box;
 }
 
-
-/*Method seen on w3schools.com. Modified*/
-
-input[type=text],
+input[type="text"],
 select,
 textarea,
-input[type=email],
+input[type="email"],
 email {
 	width: 100%;
 	padding: 0.625rem;
-	border: 0.125rem solid #3b853f;
+	border: #3b853f solid 0.125rem;
 	border-radius: 0.125rem;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	margin-top: 0.3125rem;
 	margin-bottom: 0.9375rem;
@@ -358,38 +297,28 @@ email {
 .submit {
 	float: right;
 	background: #3b853f;
-	border: 0.125rem solid darkgreen;
+	border: darkgreen solid 0.125rem;
 	border-radius: 0.125rem;
 	color: white;
 }
 
 .submit:hover {
-	background: #032504
+	background: #032504;
 }
-
-/*Footer*/
 
 footer {
 	background: black;
-    padding: 0.1rem;
+	padding: 0.1rem;
 }
 
 .footer-icons {
-    list-style: none;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
+	list-style: none;
 	justify-content: center;
-    
 }
 
 .footer-icons li {
-    padding: 0.5rem;
+	padding: 0.5rem;
 }
-
-/*CSS Responsive breakpoint from https://gist.github.com/EmranAhmed/8044351 */
-
-
-/* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
 	.btn {
@@ -406,23 +335,17 @@ footer {
 	}
 }
 
-
-/* Extra Small Devices, Phones */
-
 @media only screen and (min-width: 480px) {
 	.btn {
 		margin: 0.9375rem;
 	}
-    .footer-icons {
+	.footer-icons {
 		font-size: 1.5625rem;
 	}
 	.card-deck {
 		margin-right: 1.875rem;
 	}
 }
-
-
-/* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
 	.btn {
@@ -443,9 +366,6 @@ footer {
 	}
 }
 
-
-/* Medium Devices, Desktops */
-
 @media only screen and (min-width: 992px) {
 	.btn {
 		margin: 0.9375rem;
@@ -457,9 +377,6 @@ footer {
 		margin-bottom: 1.25rem;
 	}
 }
-
-
-/* Large Devices, Wide Screens */
 
 @media only screen and (min-width: 1200px) {
 	.btn {
