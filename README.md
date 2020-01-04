@@ -31,8 +31,9 @@ The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in
 
 * On the Homepage (index.html) you can see the menu navigation bar with relevant Fontawesome icons. When you hover, the background color turns green (#3b853f). This color sees you through the whole page, you find it in the portrait picture,  borders, buttons.
   * Besides this gradiation, I used only black and white.
-  * You can also see a small introduction, a portrait picture (with an ease in transition and a green hover), three navigation buttons helping in orientation on the page, and also three rounded icons leading you to my social media accounts.
-* On About me page you can find two navigation bars, first one is the menu I've presented before, the other one is the footer containing two buttons, drawing the attention to my LinkedIn profile and GitHub repositories. These two navigation items appear on three of the four pages (I thought that having a footer on my Homepage makes the general aspect too cluttered.
+  * You can also see a small introduction, a portrait picture (with an ease in transition and a green hover), three navigation buttons helping in orientation on the page, and also there are two buttons drawing the attention to my GitHub repository and Linkedin profile.
+  * In the footer you can see three rounded icons leading you to my social media accounts. To be consistent, the footer is the same on every page.
+* On About me page you can see the menu I've presented before.
 On this page, I have a small introduction about myself, and a timeline with my imaginary and real work history. The basic structure of the timeline was written by Andrew R McHugh, you can find the source code [here](https://codepen.io/armthethinker/pen/nEtke). It was significantly modified.
 * My portfolio page is a showcase of my recent work (also fiction). Under the card, you can see the name of the project, and for more information, you can click on the navigation button located beneath each of the cards.
   * If you click on the pictures, it leads you to the same page as "More information".
@@ -42,7 +43,6 @@ Your name and your valid email address are required.
 ### Features Left to Implement
 
 * In the future I plan to add further projects, work experience to make My portfolio and About me pages better.
-* On my Get in touch page, I would like to fix my form to work properly, so when I have enough knowledge for this, I will come back to this section, and I will make the submit button work.
 * After having enough knowledge, I want to come back, and use jquery and popper.js to make my menu transform to a drowdown menu on small screens.
 * Getting to know how to use JavasScript, I want to fix my form (currently you can submit with Choose your answer).
 
@@ -65,6 +65,7 @@ Your name and your valid email address are required.
 
 All links were manually tested, and all of them open in a new tab using `target:"_blank"` and `rel="noopener"` attribute.
 The whole website is responsive using a different types of devices.
+To test this, besides asking my friends and family to be my first potential client and check everything,  I used devtools (righ click on the page, then Inspect), and [AmIResponsive](http://ami.responsivedesign.is/#). 
 
 ### Fixed issues
 
@@ -78,9 +79,9 @@ The whole website is responsive using a different types of devices.
 * When you open my portfolio website, you can see on each page the menu with Fontawesome icons.
   * If you `hover`, the section changes the background to green. The same thing happens if you move your cursor to my portrait picture or any of the buttons.
 * In the background, you can see a picture, which covers the whole page.
-* You can jump to Get In touch form (via I have and idea button), to About me page (via Tell me more success button) and you can also download my printable CV by clicking on Download my CV button.
-* Below the success buttons, you can connect me on social media accounts (Facebook and LinkedIn) or You can visit my GitHub repositories.
-* On every page you can find a footer, where you can see two buttons: one leading you to my LinkedIn profile and one to my GitHub repositories.
+* You can jump to Get In touch form (via I have and idea button), to About me page (via Tell me more success button) and you can also download my printable CV by clicking on Download CV button.
+* There are three other navigation buttons: these are not leading you around the page, they are external links, drawing your attention to visit my professional profile on LinkedIn or my Github account.
+* On every page you can find a footer, where you can see three buttons: you can connect me on social media accounts (Facebook and LinkedIn) or you can visit my GitHub repositories.
   * All of the buttons on the website have the same style.
 
 #### About me
@@ -152,7 +153,7 @@ The inspiration for the README comes from [Anna Greaves](https://github.com/AJGr
 * To write this README I used this [template](https://github.com/Code-Institute-Solutions/readme-template) and this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 * I learned a lot from browsing the templates on [W3Schools](https://www.w3schools.com/).
 * Special thanks to [Richard Wells](https://github.com/D0nni387) and [Simen Daehlin](https://github.com/Eventyret) for the detailed feedback on my project.
-* I learned a lot just browsing other sites using devtool, and reading the Slack. Thank you for the help to my mentor, the tutors and the Slack community.
+* I learned a lot just browsing other sites using devtool, and reading the Slack. Thank you for the help to my [mentor](https://github.com/aaronsnig501), the tutors and the Slack community.
 
 **This site is for educational use.**
 
