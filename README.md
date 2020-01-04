@@ -2,8 +2,8 @@
 
 This page is my portfolio website. I made it as my first milestone project at Code Institute.
 The purpose of the project is to introduce myself and my work to potential customers and recruiters.
-Browsing this page the user can get every kind of useful information about me: my portfolio, my work history, my interests, a group of  the links to my social media accounts and to my GitHub repository. If the user it's not interested in browsing, they can reach my resumé in printable (pdf) version directly from the homepage.
-The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in Touch*. I built my project using HTML5, CSS3 and Bootstrap.
+Browsing this page the user can get every kind of useful information about me: my portfolio, my work history, my interests, a group of  the links to my social media accounts and my GitHub repository. If the user it's not interested in browsing, they can reach my resumé in printable (pdf) version directly from the homepage.
+The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in Touch*. I built my project using HTML5, CSS3, and Bootstrap.
 
 ![Responsive design](https://github.com/krisztinatxt/krisztina-szabo-personal-portfolio/blob/master/assets/images/amiresponsive.JPG "Responsive Design")
 
@@ -31,7 +31,7 @@ The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in
 
 * On the Homepage (index.html) you can see the menu navigation bar with relevant Fontawesome icons. When you hover, the background color turns green (#3b853f). This color sees you through the whole page, you find it in the portrait picture,  borders, buttons.
   * Besides this gradiation, I used only black and white.
-  * You can also see a small introduction, a portrait picture (with an ease in transition and a green hover), three navigation buttons helping in orientation on the page, and also there are two buttons drawing the attention to my GitHub repository and Linkedin profile.
+  * You can also see a small introduction, a portrait picture (with ease in transition and a green hover), three navigation buttons helping in orientation on the page, and also two buttons are drawing the attention to my GitHub repository and Linkedin profile.
   * In the footer you can see three rounded icons leading you to my social media accounts. To be consistent, the footer is the same on every page.
 * On About me page you can see the menu I've presented before.
 On this page, I have a small introduction about myself, and a timeline with my imaginary and real work history. The basic structure of the timeline was written by Andrew R McHugh, you can find the source code [here](https://codepen.io/armthethinker/pen/nEtke). It was significantly modified.
@@ -43,7 +43,7 @@ Your name and your valid email address are required.
 ### Features Left to Implement
 
 * In the future I plan to add further projects, work experience to make My portfolio and About me pages better.
-* After having enough knowledge, I want to come back, and use jquery and popper.js to make my menu transform to a drowdown menu on small screens.
+* After having enough knowledge, I want to come back, and use jquery and popper.js to make my menu transform to a dropdown menu on small screens.
 * Getting to know how to use JavasScript, I want to fix my form (currently you can submit with Choose your answer).
 
 ## Technologies Used
@@ -64,8 +64,8 @@ Your name and your valid email address are required.
 ## Testing
 
 All links were manually tested, and all of them open in a new tab using `target:"_blank"` and `rel="noopener"` attribute.
-The whole website is responsive using a different types of devices.
-To test this, besides asking my friends and family to be my first potential client and check everything,  I used devtools (right click on the page, then Inspect), and [AmIResponsive](http://ami.responsivedesign.is/#). 
+The whole website is responsive using different types of devices.
+To test this, besides asking my friends and family to be my first potential client and check everything, I used devtools (right-click on the page, then Inspect), and [AmIResponsive](http://ami.responsivedesign.is/#).
 
 ### Fixed issues
 
@@ -73,14 +73,14 @@ To test this, besides asking my friends and family to be my first potential clie
 * I used px to set the height of my background image, which was nice on a small desktop screen, but it gave me a white space browsing from a phone, tablet, or wider screen. With this issue, one of the tutors helped me out: I changed the height to 100% and I set a min-height. After that, I realized that I have the same problem with my contact form, and I fixed it using the same method.
 * Before submitting this project, I posted my GitHub page in Slack, and I've got a lot of useful feedback on how to make this site more professional.
 * I changed the structure of the code, I fixed some inconsistency in my bootstrap grid, I made the content more readable, I made my portfolio picture clickable,  I updated the links, I edited my README file. Thanks for the help to [Simon Daehlin](https://github.com/Eventyret) and [Richard Wells](https://github.com/D0nni387).
-* I took my mentor, [Aaron Sinnot's](https://github.com/aaronsnig501) advice, and the social media icons changed places with the LinkedIn and GitHub buttons, so the user can find my social media accounts on every page in the footer and in the menu navbar I fixed the spacing between the names and the icons.
+* I took my mentor, [Aaron Sinnot's](https://github.com/aaronsnig501) advice, and the social media icons changed places with the LinkedIn and GitHub buttons, so the user can find my social media accounts on every page in the footer. In the menu navbar I fixed the spacing between the names and the icons.
 
 #### Homepage
 
 * When you open my portfolio website, you can see on each page the menu with Fontawesome icons.
   * If you `hover`, the section changes the background to green. The same thing happens if you move your cursor to my portrait picture or any of the buttons.
 * In the background, you can see a picture, which covers the whole page.
-* You can jump to Get In touch form (via I have and idea button), to About me page (via Tell me more success button) and you can also download my printable CV by clicking on Download CV button.
+* You can jump to Get In touch form (via I have and idea button), to About me page (via Tell me more success button) and you can also download my printable CV by clicking on the Download CV button.
 * There are three other navigation buttons: these are not leading you around the page, they are external links, drawing your attention to visit my professional profile on LinkedIn or my Github account.
 * On every page you can find a footer, where you can see three buttons: you can connect me on social media accounts (Facebook and LinkedIn) or you can visit my GitHub repositories.
   * All of the buttons on the website have the same style.
