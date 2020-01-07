@@ -24,6 +24,7 @@ The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in
 [First drafts](https://github.com/krisztinatxt/first-milestone-project/tree/master/wireframes/first)
 
 [Planning of the last version, on different devices](https://github.com/krisztinatxt/first-milestone-project/tree/master/wireframes/modified)
+
 The implementation ended up slightly different.
 
 ## Features
