@@ -216,8 +216,6 @@ a {
 /* My portfolio*/
 
 
-/*Pictures, cards*/
-
 .portfolio-title {
 	text-align: center;
 	font-size: 2.1875rem;
@@ -253,25 +251,6 @@ a {
 	text-align: center;
 	color: #3b853f;
 }
-
-
-/*Portfolio buttons*/
-
-.portfolio-btn {
-	text-align: center;
-	transition-duration: 0.2s;
-	cursor: pointer;
-}
-
-.portfolio-btn .btn-dark:hover {
-	background-color: #3b853f;
-	color: white;
-}
-
-.btn.btn-dark:hover {
-	background: #3b853f;
-}
-
 
 /*Get in touch form*/
 

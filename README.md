@@ -23,7 +23,8 @@ The website contains 4 pages: *Homepage*, *About me*, *My portfolio* and *Get in
 
 [First drafts](https://github.com/krisztinatxt/first-milestone-project/tree/master/wireframes/first)
 
-[Planning of the final version, on different devices](https://github.com/krisztinatxt/first-milestone-project/tree/master/wireframes/modified)
+[Planning of the last version, on different devices](https://github.com/krisztinatxt/first-milestone-project/tree/master/wireframes/modified)
+The implementation ended up slightly different.
 
 ## Features
 
@@ -73,7 +74,7 @@ To test this, besides asking my friends and family to be my first potential clie
 * I used px to set the height of my background image, which was nice on a small desktop screen, but it gave me a white space browsing from a phone, tablet, or wider screen. With this issue, one of the tutors helped me out: I changed the height to 100% and I set a min-height. After that, I realized that I have the same problem with my contact form, and I fixed it using the same method.
 * Before submitting this project, I posted my GitHub page in Slack, and I've got a lot of useful feedback on how to make this site more professional.
 * I changed the structure of the code, I fixed some inconsistency in my bootstrap grid, I made the content more readable, I made my portfolio picture clickable,  I updated the links, I edited my README file. Thanks for the help to [Simon Daehlin](https://github.com/Eventyret) and [Richard Wells](https://github.com/D0nni387).
-* I took my mentor, [Aaron Sinnot's](https://github.com/aaronsnig501) advice, and the social media icons changed places with the LinkedIn and GitHub buttons, so the user can find my social media accounts on every page in the footer. In the menu navbar I fixed the spacing between the names and the icons.
+* I took my mentor, [Aaron Sinnot's](https://github.com/aaronsnig501) advice, and I set the social media icons to my footer, so the user can find my social media accounts on every page in the footer. In the menu navbar I fixed the spacing between the names and the icons.
 
 #### Homepage
 
@@ -81,7 +82,6 @@ To test this, besides asking my friends and family to be my first potential clie
   * If you `hover`, the section changes the background to green. The same thing happens if you move your cursor to my portrait picture or any of the buttons.
 * In the background, you can see a picture, which covers the whole page.
 * You can jump to Get In touch form (via I have and idea button), to About me page (via Tell me more success button) and you can also download my printable CV by clicking on the Download CV button.
-* There are three other navigation buttons: these are not leading you around the page, they are external links, drawing your attention to visit my professional profile on LinkedIn or my Github account.
 * On every page you can find a footer, where you can see three buttons: you can connect me on social media accounts (Facebook and LinkedIn) or you can visit my GitHub repositories.
   * All of the buttons on the website have the same style.
 
