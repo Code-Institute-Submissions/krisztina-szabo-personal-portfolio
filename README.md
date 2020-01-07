@@ -32,7 +32,7 @@ The implementation ended up slightly different.
 
 * On the Homepage (index.html) you can see the menu navigation bar with relevant Fontawesome icons. When you hover, the background color turns green (#3b853f). This color sees you through the whole page, you find it in the portrait picture,  borders, buttons.
   * Besides this gradiation, I used only black and white.
-  * You can also see a small introduction, a portrait picture (with ease in transition and a green hover), three navigation buttons helping in orientation on the page, and also two buttons are drawing the attention to my GitHub repository and Linkedin profile.
+  * You can also see a small introduction, a portrait picture (with ease in transition and a green hover), and three navigation buttons helping in orientation on the page.
   * In the footer you can see three rounded icons leading you to my social media accounts. To be consistent, the footer is the same on every page.
 * On About me page you can see the menu I've presented before.
 On this page, I have a small introduction about myself, and a timeline with my imaginary and real work history. The basic structure of the timeline was written by Andrew R McHugh, you can find the source code [here](https://codepen.io/armthethinker/pen/nEtke). It was significantly modified.
